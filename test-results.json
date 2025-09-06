@@ -1,0 +1,3484 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\playwright.config.ts",
+    "rootDir": "C:/Users/matias.magni2/Documents/dev/mine/playwright-visual-testing-demo/tests",
+    "forbidOnly": true,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "results.xml"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/matias.magni2/Documents/dev/mine/playwright-visual-testing-demo/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/matias.magni2/Documents/dev/mine/playwright-visual-testing-demo/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/matias.magni2/Documents/dev/mine/playwright-visual-testing-demo/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/matias.magni2/Documents/dev/mine/playwright-visual-testing-demo/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/matias.magni2/Documents/dev/mine/playwright-visual-testing-demo/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/matias.magni2/Documents/dev/mine/playwright-visual-testing-demo/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/matias.magni2/Documents/dev/mine/playwright-visual-testing-demo/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile-chrome",
+        "name": "mobile-chrome",
+        "testDir": "C:/Users/matias.magni2/Documents/dev/mine/playwright-visual-testing-demo/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/matias.magni2/Documents/dev/mine/playwright-visual-testing-demo/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile-safari",
+        "name": "mobile-safari",
+        "testDir": "C:/Users/matias.magni2/Documents/dev/mine/playwright-visual-testing-demo/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.55.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "basic-e2e.test.ts",
+      "file": "basic-e2e.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Demo E2E - BugMentor",
+          "file": "basic-e2e.test.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Should navigate and complete the form",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1420,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:18:25.413Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ca889c290206afa41221-4123e757377a4a28981a",
+              "file": "basic-e2e.test.ts",
+              "line": 4,
+              "column": 9
+            },
+            {
+              "title": "Should navigate and complete the form",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2649,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:28:42.613Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ca889c290206afa41221-46578f4197c68aa966b8",
+              "file": "basic-e2e.test.ts",
+              "line": 4,
+              "column": 9
+            },
+            {
+              "title": "Should navigate and complete the form",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2239,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:39:16.722Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ca889c290206afa41221-cf776dd5b5f2d5ee95cb",
+              "file": "basic-e2e.test.ts",
+              "line": 4,
+              "column": 9
+            },
+            {
+              "title": "Should navigate and complete the form",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3324,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:49:20.853Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ca889c290206afa41221-6a0762921809957cf0cc",
+              "file": "basic-e2e.test.ts",
+              "line": 4,
+              "column": 9
+            },
+            {
+              "title": "Should navigate and complete the form",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-safari",
+                  "projectName": "mobile-safari",
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1725,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:59:40.009Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ca889c290206afa41221-5f234f09ae5cad4269ac",
+              "file": "basic-e2e.test.ts",
+              "line": 4,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "intelligent\\exploratory.test.ts",
+      "file": "intelligent/exploratory.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Automated Exploratory Testing",
+          "file": "intelligent/exploratory.test.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Should explore the app smartly",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 187564,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 4 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"real TodoMVC app.\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://todomvc.com/\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://todomvc.com/ (Page 2/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 82 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Download\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Blog\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://medium.com/@tastejs\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 58 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Sitemap\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Open in app\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"Sign up\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Sign in\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Medium Logo\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Sign in\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Get started\"\n"
+                        },
+                        {
+                          "text": "⚠️ General error interacting with A - \"Get started\": Error: locator.hover: Test timeout of 180000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input, button, a, [role=\"button\"]').filter({ hasNotText: 'View on GitHub' }).nth(6)\u001b[22m\n\u001b[2m    - locator resolved to <a data-discover=\"true\" rel=\"noopener follow\" class=\"ah ai aj ff al am an ao ap aq ar as at au av\" href=\"/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2F&source=--------------------------lo_home_nav------------------\">…</a>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div role=\"dialog\" tabindex=\"-1\" aria-modal=\"true\" class=\"ac r cr tm tn to tp tq tr rh o td lg kx ts\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div role=\"dialog\" tabindex=\"-1\" aria-modal=\"true\" class=\"ac r cr tm tn to tp tq tr rh o td lg kx ts\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    250 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m        - element is visible and stable\u001b[22m\n\u001b[2m        - scrolling into view if needed\u001b[22m\n\u001b[2m        - done scrolling\u001b[22m\n\u001b[2m        - <div role=\"dialog\" tabindex=\"-1\" aria-modal=\"true\" class=\"ac r cr tm tn to tp tq tr rh o td lg kx ts\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m      - retrying hover action\u001b[22m\n\u001b[2m        - waiting 500ms\u001b[22m\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:18:27.705Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium\\error-context.md"
+                        }
+                      ]
+                    },
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 186790,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\tests\\intelligent\\exploratory.test.ts",
+                            "column": 13,
+                            "line": 106
+                          },
+                          "message": "Error: Test 'AI Guided Exploration' of 'Exploratory Testing' detected differences! See details at: https://eyes.applitools.com/app/batches/00000251645213137309/00000251645200636946?accountId=ZXsw_GZYDU2li1naapJ8pw__\n\n\u001b[0m \u001b[90m 104 |\u001b[39m         } \u001b[36mfinally\u001b[39m {\n \u001b[90m 105 |\u001b[39m             \u001b[90m// Ensure eyes.close() is called even if errors occur\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 106 |\u001b[39m             \u001b[36mawait\u001b[39m eyes\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 107 |\u001b[39m         }\n \u001b[90m 108 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 109 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at Eyes.getResults (C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\node_modules\\@applitools\\eyes\\dist\\Eyes.js:435:27)\u001b[22m\n\u001b[2m    at Eyes.close (C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\node_modules\\@applitools\\eyes\\dist\\Eyes.js:393:26)\u001b[22m\n\u001b[2m    at C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\tests\\intelligent\\exploratory.test.ts:106:13\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 4 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"real TodoMVC app.\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://todomvc.com/\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://todomvc.com/ (Page 2/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 82 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Download\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Blog\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://medium.com/@tastejs\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 58 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Sitemap\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Open in app\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"Sign up\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Sign in\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Medium Logo\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Sign in\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Get started\"\n"
+                        },
+                        {
+                          "text": "⚠️ General error interacting with A - \"Get started\": Error: locator.hover: Test timeout of 180000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input, button, a, [role=\"button\"]').filter({ hasNotText: 'View on GitHub' }).nth(6)\u001b[22m\n\u001b[2m    - locator resolved to <a data-discover=\"true\" rel=\"noopener follow\" class=\"ah ai aj ff al am an ao ap aq ar as at au av\" href=\"/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2F&source=--------------------------lo_home_nav------------------\">…</a>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div role=\"dialog\" tabindex=\"-1\" aria-modal=\"true\" class=\"ac r cr tm tn to tp tq tr rh o td lg kx ts\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div role=\"dialog\" tabindex=\"-1\" aria-modal=\"true\" class=\"ac r cr tm tn to tp tq tr rh o td lg kx ts\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    220 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m        - element is visible and stable\u001b[22m\n\u001b[2m        - scrolling into view if needed\u001b[22m\n\u001b[2m        - done scrolling\u001b[22m\n\u001b[2m        - <div role=\"dialog\" tabindex=\"-1\" aria-modal=\"true\" class=\"ac r cr tm tn to tp tq tr rh o td lg kx ts\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m      - retrying hover action\u001b[22m\n\u001b[2m        - waiting 500ms\u001b[22m\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 1,
+                      "startTime": "2025-09-05T19:21:37.020Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium-retry1\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium-retry1\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium-retry1\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium-retry1\\trace.zip"
+                        }
+                      ]
+                    },
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 187076,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\tests\\intelligent\\exploratory.test.ts",
+                            "column": 13,
+                            "line": 106
+                          },
+                          "message": "Error: Test 'AI Guided Exploration' of 'Exploratory Testing' detected differences! See details at: https://eyes.applitools.com/app/batches/00000251645213137309/00000251645200449062?accountId=ZXsw_GZYDU2li1naapJ8pw__\n\n\u001b[0m \u001b[90m 104 |\u001b[39m         } \u001b[36mfinally\u001b[39m {\n \u001b[90m 105 |\u001b[39m             \u001b[90m// Ensure eyes.close() is called even if errors occur\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 106 |\u001b[39m             \u001b[36mawait\u001b[39m eyes\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 107 |\u001b[39m         }\n \u001b[90m 108 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 109 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at Eyes.getResults (C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\node_modules\\@applitools\\eyes\\dist\\Eyes.js:435:27)\u001b[22m\n\u001b[2m    at Eyes.close (C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\node_modules\\@applitools\\eyes\\dist\\Eyes.js:393:26)\u001b[22m\n\u001b[2m    at C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\tests\\intelligent\\exploratory.test.ts:106:13\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 4 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"real TodoMVC app.\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://todomvc.com/\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://todomvc.com/ (Page 2/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 82 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Download\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Blog\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://medium.com/@tastejs\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 58 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Sitemap\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Open in app\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"Sign up\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Sign in\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Medium Logo\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Sign in\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Get started\"\n"
+                        },
+                        {
+                          "text": "⚠️ General error interacting with A - \"Get started\": Error: locator.hover: Test timeout of 180000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input, button, a, [role=\"button\"]').filter({ hasNotText: 'View on GitHub' }).nth(6)\u001b[22m\n\u001b[2m    - locator resolved to <a data-discover=\"true\" rel=\"noopener follow\" class=\"ah ai aj ff al am an ao ap aq ar as at au av\" href=\"/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2F&source=--------------------------lo_home_nav------------------\">…</a>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div role=\"dialog\" tabindex=\"-1\" aria-modal=\"true\" class=\"ac r cr tm tn to tp tq tr rh o td lg kx ts\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div role=\"dialog\" tabindex=\"-1\" aria-modal=\"true\" class=\"ac r cr tm tn to tp tq tr rh o td lg kx ts\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    248 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m        - element is visible and stable\u001b[22m\n\u001b[2m        - scrolling into view if needed\u001b[22m\n\u001b[2m        - done scrolling\u001b[22m\n\u001b[2m        - <div role=\"dialog\" tabindex=\"-1\" aria-modal=\"true\" class=\"ac r cr tm tn to tp tq tr rh o td lg kx ts\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m      - retrying hover action\u001b[22m\n\u001b[2m        - waiting 500ms\u001b[22m\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 2,
+                      "startTime": "2025-09-05T19:24:46.856Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium-retry2\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium-retry2\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium-retry2\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "1a991ff53ff54b438aac-7ae7df1300611b0a8800",
+              "file": "intelligent/exploratory.test.ts",
+              "line": 5,
+              "column": 9
+            },
+            {
+              "title": "Should explore the app smartly",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 180367,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 4 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"real TodoMVC app.\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://todomvc.com/\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://todomvc.com/ (Page 2/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 82 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Download\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Blog\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://medium.com/@tastejs\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 58 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Sitemap\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Open in app\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"Sign up\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Sign in\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Medium Logo\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Sign in\"\n"
+                        },
+                        {
+                          "text": "⚠️ General error interacting with A - \"Sign in\": Error: locator.hover: Test timeout of 180000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input, button, a, [role=\"button\"]').filter({ hasNotText: 'View on GitHub' }).nth(5)\u001b[22m\n\u001b[2m    - locator resolved to <a data-discover=\"true\" rel=\"noopener follow\" class=\"ah ai aj ff al am an ao ap aq ar as at au av\" href=\"/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F&source=--------------------------lo_home_nav------------------\">Sign in</a>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <iframe class=\"L5Fo6c-PQbLGe\" title=\"Diálogo de Acceder con Google\" src=\"https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=jqGg17u-ZWOsXwYvyOV93Ep_sI17GiYvxH6Qg-fE984&is_itp=true&channel_id=ab6beaecd810797e0e4229f2c5d5f06d217eba247789e05778064db6c45755fb&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth\"></iframe> from <div id=\"credential_picker_container\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <iframe class=\"L5Fo6c-PQbLGe\" title=\"Diálogo de Acceder con Google\" src=\"https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=jqGg17u-ZWOsXwYvyOV93Ep_sI17GiYvxH6Qg-fE984&is_itp=true&channel_id=ab6beaecd810797e0e4229f2c5d5f06d217eba247789e05778064db6c45755fb&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth\"></iframe> from <div id=\"credential_picker_container\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    270 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m        - element is visible and stable\u001b[22m\n\u001b[2m        - scrolling into view if needed\u001b[22m\n\u001b[2m        - done scrolling\u001b[22m\n\u001b[2m        - <iframe class=\"L5Fo6c-PQbLGe\" title=\"Diálogo de Acceder con Google\" src=\"https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=jqGg17u-ZWOsXwYvyOV93Ep_sI17GiYvxH6Qg-fE984&is_itp=true&channel_id=ab6beaecd810797e0e4229f2c5d5f06d217eba247789e05778064db6c45755fb&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth\"></iframe> from <div id=\"credential_picker_container\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m      - retrying hover action\u001b[22m\n\u001b[2m        - waiting 500ms\u001b[22m\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:28:47.067Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox\\error-context.md"
+                        }
+                      ]
+                    },
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 193343,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\tests\\intelligent\\exploratory.test.ts",
+                            "column": 13,
+                            "line": 106
+                          },
+                          "message": "Error: Test 'AI Guided Exploration' of 'Exploratory Testing' detected differences! See details at: https://eyes.applitools.com/app/batches/00000251645213137309/00000251645200022693?accountId=ZXsw_GZYDU2li1naapJ8pw__\n\n\u001b[0m \u001b[90m 104 |\u001b[39m         } \u001b[36mfinally\u001b[39m {\n \u001b[90m 105 |\u001b[39m             \u001b[90m// Ensure eyes.close() is called even if errors occur\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 106 |\u001b[39m             \u001b[36mawait\u001b[39m eyes\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 107 |\u001b[39m         }\n \u001b[90m 108 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 109 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at Eyes.getResults (C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\node_modules\\@applitools\\eyes\\dist\\Eyes.js:435:27)\u001b[22m\n\u001b[2m    at Eyes.close (C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\node_modules\\@applitools\\eyes\\dist\\Eyes.js:393:26)\u001b[22m\n\u001b[2m    at C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\tests\\intelligent\\exploratory.test.ts:106:13\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 4 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"real TodoMVC app.\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://todomvc.com/\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://todomvc.com/ (Page 2/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 82 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Download\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Blog\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://medium.com/@tastejs\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 58 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Sitemap\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Open in app\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"Sign up\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Sign in\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Medium Logo\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Sign in\"\n"
+                        },
+                        {
+                          "text": "⚠️ General error interacting with A - \"Sign in\": Error: locator.hover: Test timeout of 180000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input, button, a, [role=\"button\"]').filter({ hasNotText: 'View on GitHub' }).nth(5)\u001b[22m\n\u001b[2m    - locator resolved to <a data-discover=\"true\" rel=\"noopener follow\" class=\"ah ai aj ff al am an ao ap aq ar as at au av\" href=\"/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F&source=--------------------------lo_home_nav------------------\">Sign in</a>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <iframe class=\"L5Fo6c-PQbLGe\" title=\"Diálogo de Acceder con Google\" src=\"https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=n1PjHqNMBUGLXLstkpnGMgTAGxvUYJxdnSicWKsBZL4&is_itp=true&channel_id=a037552b5951c96183f4ed091e1a87cd6661e6a5cb0c79b761b850ae859f43f8&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth\"></iframe> from <div id=\"credential_picker_container\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <iframe class=\"L5Fo6c-PQbLGe\" title=\"Diálogo de Acceder con Google\" src=\"https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=n1PjHqNMBUGLXLstkpnGMgTAGxvUYJxdnSicWKsBZL4&is_itp=true&channel_id=a037552b5951c96183f4ed091e1a87cd6661e6a5cb0c79b761b850ae859f43f8&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth\"></iframe> from <div id=\"credential_picker_container\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    268 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m        - element is visible and stable\u001b[22m\n\u001b[2m        - scrolling into view if needed\u001b[22m\n\u001b[2m        - done scrolling\u001b[22m\n\u001b[2m        - <iframe class=\"L5Fo6c-PQbLGe\" title=\"Diálogo de Acceder con Google\" src=\"https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=n1PjHqNMBUGLXLstkpnGMgTAGxvUYJxdnSicWKsBZL4&is_itp=true&channel_id=a037552b5951c96183f4ed091e1a87cd6661e6a5cb0c79b761b850ae859f43f8&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth\"></iframe> from <div id=\"credential_picker_container\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m      - retrying hover action\u001b[22m\n\u001b[2m        - waiting 500ms\u001b[22m\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 1,
+                      "startTime": "2025-09-05T19:31:49.824Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox-retry1\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox-retry1\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox-retry1\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox-retry1\\trace.zip"
+                        }
+                      ]
+                    },
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 180306,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 4 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"real TodoMVC app.\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://todomvc.com/\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://todomvc.com/ (Page 2/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 82 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Download\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Blog\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://medium.com/@tastejs\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 58 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Sitemap\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Open in app\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"Sign up\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Sign in\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Medium Logo\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Sign in\"\n"
+                        },
+                        {
+                          "text": "⚠️ General error interacting with A - \"Sign in\": Error: locator.hover: Test timeout of 180000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input, button, a, [role=\"button\"]').filter({ hasNotText: 'View on GitHub' }).nth(5)\u001b[22m\n\u001b[2m    - locator resolved to <a data-discover=\"true\" rel=\"noopener follow\" class=\"ah ai aj ff al am an ao ap aq ar as at au av\" href=\"/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F&source=--------------------------lo_home_nav------------------\">Sign in</a>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <iframe class=\"L5Fo6c-PQbLGe\" title=\"Diálogo de Acceder con Google\" src=\"https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=X1A-zv2UPj7i7M0_yX1oR7tl6rfqXrA3J0PGg8MZ-lg&is_itp=true&channel_id=df421b41bb8b317a2ab7ac10926ca6a7856627dcf98b7c3738a5928c0d15ffee&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth\"></iframe> from <div id=\"credential_picker_container\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <iframe class=\"L5Fo6c-PQbLGe\" title=\"Diálogo de Acceder con Google\" src=\"https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=X1A-zv2UPj7i7M0_yX1oR7tl6rfqXrA3J0PGg8MZ-lg&is_itp=true&channel_id=df421b41bb8b317a2ab7ac10926ca6a7856627dcf98b7c3738a5928c0d15ffee&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth\"></iframe> from <div id=\"credential_picker_container\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    264 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m        - element is visible and stable\u001b[22m\n\u001b[2m        - scrolling into view if needed\u001b[22m\n\u001b[2m        - done scrolling\u001b[22m\n\u001b[2m        - <iframe class=\"L5Fo6c-PQbLGe\" title=\"Diálogo de Acceder con Google\" src=\"https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=X1A-zv2UPj7i7M0_yX1oR7tl6rfqXrA3J0PGg8MZ-lg&is_itp=true&channel_id=df421b41bb8b317a2ab7ac10926ca6a7856627dcf98b7c3738a5928c0d15ffee&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth\"></iframe> from <div id=\"credential_picker_container\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m      - retrying hover action\u001b[22m\n\u001b[2m        - waiting 500ms\u001b[22m\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 2,
+                      "startTime": "2025-09-05T19:35:22.813Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox-retry2\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox-retry2\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox-retry2\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "1a991ff53ff54b438aac-41dad858bbd81c3cf9ae",
+              "file": "intelligent/exploratory.test.ts",
+              "line": 5,
+              "column": 9
+            },
+            {
+              "title": "Should explore the app smartly",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 180493,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 4 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"real TodoMVC app.\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://todomvc.com/\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://todomvc.com/ (Page 2/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 82 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Download\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Blog\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://medium.com/@tastejs\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 58 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Sitemap\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Open in app\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"Sign up\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Sign in\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Medium Logo\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Sign in\"\n"
+                        },
+                        {
+                          "text": "⚠️ General error interacting with A - \"Sign in\": Error: locator.hover: Test timeout of 180000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input, button, a, [role=\"button\"]').filter({ hasNotText: 'View on GitHub' }).nth(5)\u001b[22m\n\u001b[2m    - locator resolved to <a data-discover=\"true\" rel=\"noopener follow\" class=\"ah ai aj ff al am an ao ap aq ar as at au av\" href=\"/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F&source=--------------------------lo_home_nav------------------\">Sign in</a>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <iframe class=\"L5Fo6c-PQbLGe\" title=\"Diálogo de Acceder con Google\" src=\"https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=W54K3FoBqdSlDZ52U42U6OfAZ6NK9YdwwJdEPW7Y-Jk&is_itp=true&channel_id=7f39caedf80abb74739368387be9fbddec8f5d5756c7789ce0ee99e037576cfe&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth\"></iframe> from <div id=\"credential_picker_container\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <iframe class=\"L5Fo6c-PQbLGe\" title=\"Diálogo de Acceder con Google\" src=\"https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=W54K3FoBqdSlDZ52U42U6OfAZ6NK9YdwwJdEPW7Y-Jk&is_itp=true&channel_id=7f39caedf80abb74739368387be9fbddec8f5d5756c7789ce0ee99e037576cfe&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth\"></iframe> from <div id=\"credential_picker_container\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    193 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m        - element is visible and stable\u001b[22m\n\u001b[2m        - scrolling into view if needed\u001b[22m\n\u001b[2m        - done scrolling\u001b[22m\n\u001b[2m        - <iframe class=\"L5Fo6c-PQbLGe\" title=\"Diálogo de Acceder con Google\" src=\"https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=W54K3FoBqdSlDZ52U42U6OfAZ6NK9YdwwJdEPW7Y-Jk&is_itp=true&channel_id=7f39caedf80abb74739368387be9fbddec8f5d5756c7789ce0ee99e037576cfe&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth\"></iframe> from <div id=\"credential_picker_container\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m      - retrying hover action\u001b[22m\n\u001b[2m        - waiting 500ms\u001b[22m\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:39:20.032Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit\\error-context.md"
+                        }
+                      ]
+                    },
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 181155,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 4 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"real TodoMVC app.\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://todomvc.com/\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://todomvc.com/ (Page 2/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 82 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Download\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Blog\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://medium.com/@tastejs\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 58 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Sitemap\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Open in app\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"Sign up\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Sign in\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Medium Logo\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Sign in\"\n"
+                        },
+                        {
+                          "text": "⚠️ General error interacting with A - \"Sign in\": Error: locator.hover: Test timeout of 180000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input, button, a, [role=\"button\"]').filter({ hasNotText: 'View on GitHub' }).nth(5)\u001b[22m\n\u001b[2m    - locator resolved to <a data-discover=\"true\" rel=\"noopener follow\" class=\"ah ai aj ff al am an ao ap aq ar as at au av\" href=\"/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F&source=--------------------------lo_home_nav------------------\">Sign in</a>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <iframe class=\"L5Fo6c-PQbLGe\" title=\"Diálogo de Acceder con Google\" src=\"https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=xryYOkLsJBCYhwPWloePvVGRRnA_LvrQxNgKfFmbL6A&is_itp=true&channel_id=fbf319a431796e2d52dbcd2b8267db15850d6090d9248d295a0969def88fbbba&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth\"></iframe> from <div id=\"credential_picker_container\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <iframe class=\"L5Fo6c-PQbLGe\" title=\"Diálogo de Acceder con Google\" src=\"https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=xryYOkLsJBCYhwPWloePvVGRRnA_LvrQxNgKfFmbL6A&is_itp=true&channel_id=fbf319a431796e2d52dbcd2b8267db15850d6090d9248d295a0969def88fbbba&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth\"></iframe> from <div id=\"credential_picker_container\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    141 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m        - element is visible and stable\u001b[22m\n\u001b[2m        - scrolling into view if needed\u001b[22m\n\u001b[2m        - done scrolling\u001b[22m\n\u001b[2m        - <iframe class=\"L5Fo6c-PQbLGe\" title=\"Diálogo de Acceder con Google\" src=\"https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=xryYOkLsJBCYhwPWloePvVGRRnA_LvrQxNgKfFmbL6A&is_itp=true&channel_id=fbf319a431796e2d52dbcd2b8267db15850d6090d9248d295a0969def88fbbba&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth\"></iframe> from <div id=\"credential_picker_container\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m      - retrying hover action\u001b[22m\n\u001b[2m        - waiting 500ms\u001b[22m\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 1,
+                      "startTime": "2025-09-05T19:42:22.557Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit-retry1\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit-retry1\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit-retry1\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit-retry1\\trace.zip"
+                        }
+                      ]
+                    },
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 180482,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 4 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"real TodoMVC app.\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://todomvc.com/\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://todomvc.com/ (Page 2/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 82 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Download\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Blog\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://medium.com/@tastejs\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 58 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Sitemap\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Open in app\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"Sign up\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Sign in\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Medium Logo\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Sign in\"\n"
+                        },
+                        {
+                          "text": "⚠️ General error interacting with A - \"Sign in\": Error: locator.hover: Test timeout of 180000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input, button, a, [role=\"button\"]').filter({ hasNotText: 'View on GitHub' }).nth(5)\u001b[22m\n\u001b[2m    - locator resolved to <a data-discover=\"true\" rel=\"noopener follow\" class=\"ah ai aj ff al am an ao ap aq ar as at au av\" href=\"/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F&source=--------------------------lo_home_nav------------------\">Sign in</a>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <iframe class=\"L5Fo6c-PQbLGe\" title=\"Diálogo de Acceder con Google\" src=\"https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=J3Hjqsnd6xVM3I2QkzWqTSwESKEEWWPV1TK-m-dXuIo&is_itp=true&channel_id=f400c4886a21aec13421fc16695ac85c1aee993c3d255edeeebe8164db7091ed&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth\"></iframe> from <div id=\"credential_picker_container\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <iframe class=\"L5Fo6c-PQbLGe\" title=\"Diálogo de Acceder con Google\" src=\"https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=J3Hjqsnd6xVM3I2QkzWqTSwESKEEWWPV1TK-m-dXuIo&is_itp=true&channel_id=f400c4886a21aec13421fc16695ac85c1aee993c3d255edeeebe8164db7091ed&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth\"></iframe> from <div id=\"credential_picker_container\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    194 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m        - element is visible and stable\u001b[22m\n\u001b[2m        - scrolling into view if needed\u001b[22m\n\u001b[2m        - done scrolling\u001b[22m\n\u001b[2m        - <iframe class=\"L5Fo6c-PQbLGe\" title=\"Diálogo de Acceder con Google\" src=\"https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=J3Hjqsnd6xVM3I2QkzWqTSwESKEEWWPV1TK-m-dXuIo&is_itp=true&channel_id=f400c4886a21aec13421fc16695ac85c1aee993c3d255edeeebe8164db7091ed&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth\"></iframe> from <div id=\"credential_picker_container\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m      - retrying hover action\u001b[22m\n\u001b[2m        - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible and stable\u001b[22m\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 2,
+                      "startTime": "2025-09-05T19:45:27.068Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit-retry2\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit-retry2\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit-retry2\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "1a991ff53ff54b438aac-ae573dd51ed3e15498de",
+              "file": "intelligent/exploratory.test.ts",
+              "line": 5,
+              "column": 9
+            },
+            {
+              "title": "Should explore the app smartly",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 182150,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 4 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"real TodoMVC app.\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://todomvc.com/\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://todomvc.com/ (Page 2/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 82 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Download\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Blog\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://medium.com/@tastejs\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 34 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Sitemap\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Open in app\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://play.google.com/store/apps/details?id=com.medium.reader&referrer=utm_source%3DmobileNavBar&source=---two_column_layout_nav-----------------------------------------\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://play.google.com/store/apps/details?id=com.medium.reader&referrer=utm_source%3DmobileNavBar&source=---two_column_layout_nav----------------------------------------- (Page 4/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 100 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Games\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Apps\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Books\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Kids\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"google_logo Play\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"Games\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"Apps\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"Books\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"Kids\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"none\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: BUTTON - \"search\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Apps\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Books\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Kids\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"desktop_windowsWindows\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"phone_androidPhone\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"tablet_androidTablet\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"tvTV\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"laptop_chromebookChromebook\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"watchWatch\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"chevron_right\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Roblox4.4star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Free Fire x NARUTO SHIPPUDEN4.3star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Clash Royale4.4star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Dream League Soccer 20254.5star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"EA SPORTS FC™ Mobile Soccer4.5star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Stumble Guys4.5star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Candy Crush Saga4.7star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"8 Ball Pool4.8star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Brawl Stars4.1star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Call of Duty: Mobile Season 84.1star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"eFootball™4.5star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Pokémon GO4.0star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Royal Match4.7star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Mobile Legends: Bang Bang4.2star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"PUBG MOBILE4.0star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"DRAGON BALL LEGENDS4.4star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Toon Blast4.6star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Candy Crush Soda Saga4.5star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Mario Kart Tour4.4star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Dragon City: Mobile Adventure4.7star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"chevron_right\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: DIV - \"Top free\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: DIV - \"Top grossing\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: DIV - \"Top paid\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"chevron_right\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"1ACECRAFTAction•Bulletstorm•Casual•Intense4.9star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"2RobloxAdventure•Simulation•Sandbox•Casual4.4star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"3Clash RoyaleStrategy•Tower defense•Multiplayer•Royalty4.4star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"4Block Blast!Puzzle•Block•Casual•Offline4.8star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"5Prison Escape JourneySimulation3.5star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"6Free Fire x NARUTO SHIPPUDENAction•Tactical shooter•Multiplayer•Gun4.3star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"7Magic Fashion: Doll DressupSimulation•Dress-up•Casual•Competitive4.3star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"8Snake Puzzle: Slither to EatPuzzle4.6star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"9Tile Club - Match Puzzle GamePuzzle•Match 3•Casual•Offline4.9star\"\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:49:25.272Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome\\error-context.md"
+                        }
+                      ]
+                    },
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 188935,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\tests\\intelligent\\exploratory.test.ts",
+                            "column": 13,
+                            "line": 106
+                          },
+                          "message": "Error: Test 'AI Guided Exploration' of 'Exploratory Testing' detected differences! See details at: https://eyes.applitools.com/app/batches/00000251645213137309/00000251645198783592?accountId=ZXsw_GZYDU2li1naapJ8pw__\n\n\u001b[0m \u001b[90m 104 |\u001b[39m         } \u001b[36mfinally\u001b[39m {\n \u001b[90m 105 |\u001b[39m             \u001b[90m// Ensure eyes.close() is called even if errors occur\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 106 |\u001b[39m             \u001b[36mawait\u001b[39m eyes\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 107 |\u001b[39m         }\n \u001b[90m 108 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 109 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at Eyes.getResults (C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\node_modules\\@applitools\\eyes\\dist\\Eyes.js:435:27)\u001b[22m\n\u001b[2m    at Eyes.close (C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\node_modules\\@applitools\\eyes\\dist\\Eyes.js:393:26)\u001b[22m\n\u001b[2m    at C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\tests\\intelligent\\exploratory.test.ts:106:13\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 4 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"real TodoMVC app.\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://todomvc.com/\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://todomvc.com/ (Page 2/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 82 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Download\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Blog\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://medium.com/@tastejs\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 34 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Sitemap\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Open in app\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://play.google.com/store/apps/details?id=com.medium.reader&referrer=utm_source%3DmobileNavBar&source=---two_column_layout_nav-----------------------------------------\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://play.google.com/store/apps/details?id=com.medium.reader&referrer=utm_source%3DmobileNavBar&source=---two_column_layout_nav----------------------------------------- (Page 4/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 100 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Games\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Apps\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Books\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Kids\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"google_logo Play\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"Games\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"Apps\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"Books\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"Kids\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"none\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: BUTTON - \"search\"\n"
+                        },
+                        {
+                          "text": "⚠️ General error interacting with BUTTON - \"search\": Error: frame.evaluateHandle: Target page, context or browser has been closed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 1,
+                      "startTime": "2025-09-05T19:52:30.305Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome-retry1\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome-retry1\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome-retry1\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome-retry1\\trace.zip"
+                        }
+                      ]
+                    },
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 180744,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 4 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"real TodoMVC app.\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://todomvc.com/\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://todomvc.com/ (Page 2/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 82 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Download\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Blog\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://medium.com/@tastejs\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 34 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Sitemap\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Open in app\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://play.google.com/store/apps/details?id=com.medium.reader&referrer=utm_source%3DmobileNavBar&source=---two_column_layout_nav-----------------------------------------\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://play.google.com/store/apps/details?id=com.medium.reader&referrer=utm_source%3DmobileNavBar&source=---two_column_layout_nav----------------------------------------- (Page 4/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 100 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Games\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Apps\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Books\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Kids\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"google_logo Play\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"Games\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"Apps\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"Books\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"Kids\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"none\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: BUTTON - \"search\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Apps\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Books\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Kids\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"desktop_windowsWindows\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"phone_androidPhone\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"tablet_androidTablet\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"tvTV\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"laptop_chromebookChromebook\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"watchWatch\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"chevron_right\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Roblox4.4star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Free Fire x NARUTO SHIPPUDEN4.3star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Clash Royale4.4star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Dream League Soccer 20254.5star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"EA SPORTS FC™ Mobile Soccer4.5star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Stumble Guys4.5star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Candy Crush Saga4.7star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"8 Ball Pool4.8star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Brawl Stars4.1star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Call of Duty: Mobile Season 84.1star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"eFootball™4.5star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Pokémon GO4.0star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Royal Match4.7star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Mobile Legends: Bang Bang4.2star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"PUBG MOBILE4.0star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"DRAGON BALL LEGENDS4.4star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Toon Blast4.6star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Candy Crush Soda Saga4.5star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Mario Kart Tour4.4star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Dragon City: Mobile Adventure4.7star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"chevron_right\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: DIV - \"Top free\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: DIV - \"Top grossing\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: DIV - \"Top paid\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"chevron_right\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"1ACECRAFTAction•Bulletstorm•Casual•Intense4.9star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"2RobloxAdventure•Simulation•Sandbox•Casual4.4star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"3Clash RoyaleStrategy•Tower defense•Multiplayer•Royalty4.4star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"4Block Blast!Puzzle•Block•Casual•Offline4.8star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"5Prison Escape JourneySimulation3.5star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"6Free Fire x NARUTO SHIPPUDENAction•Tactical shooter•Multiplayer•Gun4.3star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"7Magic Fashion: Doll DressupSimulation•Dress-up•Casual•Competitive4.3star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"8Snake Puzzle: Slither to EatPuzzle4.6star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"9Tile Club - Match Puzzle GamePuzzle•Match 3•Casual•Offline4.9star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"10Vita MahjongBoard•Puzzle•Mahjong solitaire•Casual4.9star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"11Steal n Catch the BrainrotArcade4.0star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"12Subway SurfersAction•Runner•Arcade•Offline4.6star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"13Music Piano 7: Rush Song GamesMusic•Performance•Arcade•Offline4.5star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"14Block Crazy Robo World CraftSimulation4.4star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"15Tile Explorer - Triple MatchPuzzle•Match 3•Casual•Offline4.9star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"16Kpop Piano Beats - Music GameMusic•Performance•Arcade4.6star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"17Royal MatchPuzzle•Match 3 adventure•Casual•Offline4.7star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"18TDS - Tower Destiny SurviveAction•Strategy•Tower defense•Casual4.7star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"19Blood Strike - FPS for allAction•Tactical shooter•Casual•Multiplayer4.4star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"208 Ball PoolSports•Billiards•Casual•Offline4.8star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"chevron_right\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Pokémon GOAdventure•Action4.0star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Dragon City: Mobile AdventureSimulation•Breeding4.7star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Last Day on Earth: SurvivalAction•Survival4.5star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Plague Inc.Simulation•Casual4.7star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"SimCity BuildItSimulation•City-building4.5star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Dead Target: Zombie Games 3DAction•Bulletstorm4.5star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"My Singing MonstersMusic•Simulation4.8star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Pepi Hospital: Learn & CareEducational•Simulation4.0star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Episode - Choose Your StorySimulation•Dating4.3star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"TSMSimulation•Social4.2star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Farming Simulator 14Simulation•Farming4.3star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Castle Crush：Epic BattleStrategy•Card4.4star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Fallout ShelterSimulation•Management4.8star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Spaceflight SimulatorSimulation•Casual4.7star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"The Battle of PolytopiaStrategy•4X4.4star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Pepi Super Stores: Fun & GamesEducational•Simulation4.1star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Saint Seiya Awakening: KOTZRole Playing•Tactical3.8star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Cafeland - Restaurant CookingSimulation•Restaurant4.6star\"\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: BUTTON - \"\"\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://play.google.com/store/games (Page 5/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 1500 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Games\"\n"
+                        },
+                        {
+                          "text": "⚠️ General error interacting with A - \"Games\": Error: locator.hover: Test timeout of 180000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input, button, a, [role=\"button\"]').filter({ hasNotText: 'View on GitHub' }).first()\u001b[22m\n\u001b[2m    - locator resolved to <a href=\"/store/games\" class=\"uEz1ib JtbJpb\">…</a>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div role=\"combobox\" aria-owns=\"c234\" class=\"hQnXo sMVRZe\" aria-expanded=\"true\" aria-controls=\"c234\" jscontroller=\"q0NEmc\" aria-haspopup=\"listbox\" jsaction=\"click:mLt3mc;rcuQ6b:YOF2ad;qako4e:YOF2ad;kT0ch:s8Aiuc\">…</div> from <header role=\"banner\" class=\"S3WLMd \" jscontroller=\"ArluEf\" jsaction=\"rcuQ6b:npT2md;KwkHzf:IPLOJd;tGMTLb:T1PkR;\">…</header> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div role=\"combobox\" aria-owns=\"c234\" class=\"hQnXo sMVRZe\" aria-expanded=\"true\" aria-controls=\"c234\" jscontroller=\"q0NEmc\" aria-haspopup=\"listbox\" jsaction=\"click:mLt3mc;rcuQ6b:YOF2ad;qako4e:YOF2ad;kT0ch:s8Aiuc\">…</div> from <header role=\"banner\" class=\"S3WLMd \" jscontroller=\"ArluEf\" jsaction=\"rcuQ6b:npT2md;KwkHzf:IPLOJd;tGMTLb:T1PkR;\">…</header> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    98 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m       - element is visible and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div role=\"combobox\" aria-owns=\"c234\" class=\"hQnXo sMVRZe\" aria-expanded=\"true\" aria-controls=\"c234\" jscontroller=\"q0NEmc\" aria-haspopup=\"listbox\" jsaction=\"click:mLt3mc;rcuQ6b:YOF2ad;qako4e:YOF2ad;kT0ch:s8Aiuc\">…</div> from <header role=\"banner\" class=\"S3WLMd \" jscontroller=\"ArluEf\" jsaction=\"rcuQ6b:npT2md;KwkHzf:IPLOJd;tGMTLb:T1PkR;\">…</header> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying hover action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible and stable\u001b[22m\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 2,
+                      "startTime": "2025-09-05T19:55:49.401Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome-retry2\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome-retry2\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome-retry2\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "1a991ff53ff54b438aac-2bc4a145bc463c085ec8",
+              "file": "intelligent/exploratory.test.ts",
+              "line": 5,
+              "column": 9
+            },
+            {
+              "title": "Should explore the app smartly",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-safari",
+                  "projectName": "mobile-safari",
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 180267,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 4 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"real TodoMVC app.\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://todomvc.com/\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://todomvc.com/ (Page 2/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 82 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Download\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Blog\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://medium.com/@tastejs\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 33 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Sitemap\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: BUTTON - \"Sign up\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Sign in\"\n"
+                        },
+                        {
+                          "text": "⚠️ General error interacting with A - \"Sign in\": Error: locator.hover: Test timeout of 180000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input, button, a, [role=\"button\"]').filter({ hasNotText: 'View on GitHub' }).nth(2)\u001b[22m\n\u001b[2m    - locator resolved to <a data-discover=\"true\" rel=\"noopener follow\" data-testid=\"headerSignInButton\" class=\"ah ai aj ff al am an ao ap aq ar as at au av\" href=\"/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F%40tastejs&source=user_profile_page---two_column_layout_nav-----------------------global_nav------------------\">Sign in</a>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"rh ri rj rk rl rm rn ro rp rq bq ci bi rr ac r fw cr rs rt fd\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"rh ri rj rk rl rm rn ro rp rq bq ci bi rr ac r fw cr rs rt fd\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    202 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m        - element is visible and stable\u001b[22m\n\u001b[2m        - scrolling into view if needed\u001b[22m\n\u001b[2m        - done scrolling\u001b[22m\n\u001b[2m        - <div class=\"rh ri rj rk rl rm rn ro rp rq bq ci bi rr ac r fw cr rs rt fd\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m      - retrying hover action\u001b[22m\n\u001b[2m        - waiting 500ms\u001b[22m\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:59:42.477Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari\\error-context.md"
+                        }
+                      ]
+                    },
+                    {
+                      "workerIndex": 17,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 180717,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 4 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"real TodoMVC app.\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://todomvc.com/\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://todomvc.com/ (Page 2/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 82 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Download\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Blog\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://medium.com/@tastejs\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 33 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Sitemap\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: BUTTON - \"Sign up\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Sign in\"\n"
+                        },
+                        {
+                          "text": "⚠️ General error interacting with A - \"Sign in\": Error: locator.hover: Test timeout of 180000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input, button, a, [role=\"button\"]').filter({ hasNotText: 'View on GitHub' }).nth(2)\u001b[22m\n\u001b[2m    - locator resolved to <a data-discover=\"true\" rel=\"noopener follow\" data-testid=\"headerSignInButton\" class=\"ah ai aj ff al am an ao ap aq ar as at au av\" href=\"/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F%40tastejs&source=user_profile_page---two_column_layout_nav-----------------------global_nav------------------\">Sign in</a>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"rh ri rj rk rl rm rn ro rp rq bq ci bi rr ac r fw cr rs rt fd\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"rh ri rj rk rl rm rn ro rp rq bq ci bi rr ac r fw cr rs rt fd\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    185 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m        - element is visible and stable\u001b[22m\n\u001b[2m        - scrolling into view if needed\u001b[22m\n\u001b[2m        - done scrolling\u001b[22m\n\u001b[2m        - <div class=\"rh ri rj rk rl rm rn ro rp rq bq ci bi rr ac r fw cr rs rt fd\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m      - retrying hover action\u001b[22m\n\u001b[2m        - waiting 500ms\u001b[22m\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 1,
+                      "startTime": "2025-09-05T20:02:44.181Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari-retry1\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari-retry1\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari-retry1\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari-retry1\\trace.zip"
+                        }
+                      ]
+                    },
+                    {
+                      "workerIndex": 18,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 180316,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 4 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"real TodoMVC app.\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://todomvc.com/\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://todomvc.com/ (Page 2/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 82 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Download\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Blog\"\n"
+                        },
+                        {
+                          "text": "➡️ Navigated to new page: https://medium.com/@tastejs\n"
+                        },
+                        {
+                          "text": "\n--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---\n"
+                        },
+                        {
+                          "text": "🔍 Found 33 interactive elements on this page\n"
+                        },
+                        {
+                          "text": "⏭️ Skipping hidden/disabled element: A - \"Sitemap\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: BUTTON - \"Sign up\"\n"
+                        },
+                        {
+                          "text": "🎯 Exploring: A - \"Sign in\"\n"
+                        },
+                        {
+                          "text": "⚠️ General error interacting with A - \"Sign in\": Error: locator.hover: Test timeout of 180000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input, button, a, [role=\"button\"]').filter({ hasNotText: 'View on GitHub' }).nth(2)\u001b[22m\n\u001b[2m    - locator resolved to <a data-discover=\"true\" rel=\"noopener follow\" data-testid=\"headerSignInButton\" class=\"ah ai aj ff al am an ao ap aq ar as at au av\" href=\"/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F%40tastejs&source=user_profile_page---two_column_layout_nav-----------------------global_nav------------------\">Sign in</a>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"rh ri rj rk rl rm rn ro rp rq bq ci bi rr ac r fw cr rs rt fd\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"rh ri rj rk rl rm rn ro rp rq bq ci bi rr ac r fw cr rs rt fd\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    203 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m        - element is visible and stable\u001b[22m\n\u001b[2m        - scrolling into view if needed\u001b[22m\n\u001b[2m        - done scrolling\u001b[22m\n\u001b[2m        - <div class=\"rh ri rj rk rl rm rn ro rp rq bq ci bi rr ac r fw cr rs rt fd\">…</div> from <div>…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m      - retrying hover action\u001b[22m\n\u001b[2m        - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible and stable\u001b[22m\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 2,
+                      "startTime": "2025-09-05T20:05:47.008Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari-retry2\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari-retry2\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\matias.magni2\\Documents\\dev\\mine\\playwright-visual-testing-demo\\test-results\\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari-retry2\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "1a991ff53ff54b438aac-93ee03cae97c3afde649",
+              "file": "intelligent/exploratory.test.ts",
+              "line": 5,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "intelligent\\ux-mapping.test.ts",
+      "file": "intelligent/ux-mapping.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "UX Mapping",
+          "file": "intelligent/ux-mapping.test.ts",
+          "line": 5,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Should generate UX flow map",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2433,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "📍 Paso 1: Navegar en Página principal\n"
+                        },
+                        {
+                          "text": "📍 Paso 2: Click en Input de nueva tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 3: Escribir en Texto en input\n"
+                        },
+                        {
+                          "text": "📍 Paso 4: Enviar en Formulario de tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 5: Escribir en Tarea: Segunda tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 6: Enviar en Nueva tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 7: Escribir en Tarea: Tercera tarea importante\n"
+                        },
+                        {
+                          "text": "📍 Paso 8: Enviar en Nueva tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 9: Marcar completada en Primera tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 10: Filtrar en Tareas activas\n"
+                        },
+                        {
+                          "text": "📍 Paso 11: Filtrar en Tareas completadas\n"
+                        },
+                        {
+                          "text": "📍 Paso 12: Eliminar en Tarea completada\n"
+                        },
+                        {
+                          "text": "✅ Journey completado: 12 pasos en 1173ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:27:55.267Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e8b66d56b1c32b889d42-56175582efb1e1e24171",
+              "file": "intelligent/ux-mapping.test.ts",
+              "line": 6,
+              "column": 9
+            },
+            {
+              "title": "Should generate UX flow map",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3562,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "📍 Paso 1: Navegar en Página principal\n"
+                        },
+                        {
+                          "text": "📍 Paso 2: Click en Input de nueva tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 3: Escribir en Texto en input\n"
+                        },
+                        {
+                          "text": "📍 Paso 4: Enviar en Formulario de tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 5: Escribir en Tarea: Segunda tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 6: Enviar en Nueva tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 7: Escribir en Tarea: Tercera tarea importante\n"
+                        },
+                        {
+                          "text": "📍 Paso 8: Enviar en Nueva tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 9: Marcar completada en Primera tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 10: Filtrar en Tareas activas\n"
+                        },
+                        {
+                          "text": "📍 Paso 11: Filtrar en Tareas completadas\n"
+                        },
+                        {
+                          "text": "📍 Paso 12: Eliminar en Tarea completada\n"
+                        },
+                        {
+                          "text": "✅ Journey completado: 12 pasos en 1317ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:38:26.266Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e8b66d56b1c32b889d42-bd99711850ddeb2bb0b8",
+              "file": "intelligent/ux-mapping.test.ts",
+              "line": 6,
+              "column": 9
+            },
+            {
+              "title": "Should generate UX flow map",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5145,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "📍 Paso 1: Navegar en Página principal\n"
+                        },
+                        {
+                          "text": "📍 Paso 2: Click en Input de nueva tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 3: Escribir en Texto en input\n"
+                        },
+                        {
+                          "text": "📍 Paso 4: Enviar en Formulario de tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 5: Escribir en Tarea: Segunda tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 6: Enviar en Nueva tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 7: Escribir en Tarea: Tercera tarea importante\n"
+                        },
+                        {
+                          "text": "📍 Paso 8: Enviar en Nueva tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 9: Marcar completada en Primera tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 10: Filtrar en Tareas activas\n"
+                        },
+                        {
+                          "text": "📍 Paso 11: Filtrar en Tareas completadas\n"
+                        },
+                        {
+                          "text": "📍 Paso 12: Eliminar en Tarea completada\n"
+                        },
+                        {
+                          "text": "✅ Journey completado: 12 pasos en 3674ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:48:28.919Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e8b66d56b1c32b889d42-6cb365eb64274f906325",
+              "file": "intelligent/ux-mapping.test.ts",
+              "line": 6,
+              "column": 9
+            },
+            {
+              "title": "Should generate UX flow map",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5683,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "📍 Paso 1: Navegar en Página principal\n"
+                        },
+                        {
+                          "text": "📍 Paso 2: Click en Input de nueva tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 3: Escribir en Texto en input\n"
+                        },
+                        {
+                          "text": "📍 Paso 4: Enviar en Formulario de tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 5: Escribir en Tarea: Segunda tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 6: Enviar en Nueva tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 7: Escribir en Tarea: Tercera tarea importante\n"
+                        },
+                        {
+                          "text": "📍 Paso 8: Enviar en Nueva tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 9: Marcar completada en Primera tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 10: Filtrar en Tareas activas\n"
+                        },
+                        {
+                          "text": "📍 Paso 11: Filtrar en Tareas completadas\n"
+                        },
+                        {
+                          "text": "📍 Paso 12: Eliminar en Tarea completada\n"
+                        },
+                        {
+                          "text": "✅ Journey completado: 12 pasos en 4366ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:58:51.189Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e8b66d56b1c32b889d42-116af9b064004af8ef96",
+              "file": "intelligent/ux-mapping.test.ts",
+              "line": 6,
+              "column": 9
+            },
+            {
+              "title": "Should generate UX flow map",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-safari",
+                  "projectName": "mobile-safari",
+                  "results": [
+                    {
+                      "workerIndex": 19,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10042,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "📍 Paso 1: Navegar en Página principal\n"
+                        },
+                        {
+                          "text": "📍 Paso 2: Click en Input de nueva tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 3: Escribir en Texto en input\n"
+                        },
+                        {
+                          "text": "📍 Paso 4: Enviar en Formulario de tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 5: Escribir en Tarea: Segunda tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 6: Enviar en Nueva tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 7: Escribir en Tarea: Tercera tarea importante\n"
+                        },
+                        {
+                          "text": "📍 Paso 8: Enviar en Nueva tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 9: Marcar completada en Primera tarea\n"
+                        },
+                        {
+                          "text": "📍 Paso 10: Filtrar en Tareas activas\n"
+                        },
+                        {
+                          "text": "📍 Paso 11: Filtrar en Tareas completadas\n"
+                        },
+                        {
+                          "text": "📍 Paso 12: Eliminar en Tarea completada\n"
+                        },
+                        {
+                          "text": "✅ Journey completado: 12 pasos en 6361ms\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T20:08:48.219Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e8b66d56b1c32b889d42-25e9d0957f43e2107052",
+              "file": "intelligent/ux-mapping.test.ts",
+              "line": 6,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "visual\\applitools.test.ts",
+      "file": "visual/applitools.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "AI Visual Testing con Applitools",
+          "file": "visual/applitools.test.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Should smartly detect visual changes",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 21377,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:27:58.850Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8d26aba2f1354b7e3d74-ab13136cd71e6edf55f1",
+              "file": "visual/applitools.test.ts",
+              "line": 20,
+              "column": 9
+            },
+            {
+              "title": "Should adapt to all resolutions responsively",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 18797,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:28:20.271Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8d26aba2f1354b7e3d74-2c49ec959b4c4dffebe0",
+              "file": "visual/applitools.test.ts",
+              "line": 65,
+              "column": 9
+            },
+            {
+              "title": "Should smartly detect visual changes",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 22867,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:38:31.869Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8d26aba2f1354b7e3d74-61d30205ded187bf53c5",
+              "file": "visual/applitools.test.ts",
+              "line": 20,
+              "column": 9
+            },
+            {
+              "title": "Should adapt to all resolutions responsively",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 16601,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:38:54.760Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8d26aba2f1354b7e3d74-7dabc2ab06ce6c3782d7",
+              "file": "visual/applitools.test.ts",
+              "line": 65,
+              "column": 9
+            },
+            {
+              "title": "Should smartly detect visual changes",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 21472,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:48:35.020Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8d26aba2f1354b7e3d74-0be18a3ffcf59b298b4f",
+              "file": "visual/applitools.test.ts",
+              "line": 20,
+              "column": 9
+            },
+            {
+              "title": "Should adapt to all resolutions responsively",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 19817,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:48:56.532Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8d26aba2f1354b7e3d74-9e2a5ca0c2805580bdfb",
+              "file": "visual/applitools.test.ts",
+              "line": 65,
+              "column": 9
+            },
+            {
+              "title": "Should smartly detect visual changes",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 18972,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:58:57.718Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8d26aba2f1354b7e3d74-73fff967efb1a9e1fda2",
+              "file": "visual/applitools.test.ts",
+              "line": 20,
+              "column": 9
+            },
+            {
+              "title": "Should adapt to all resolutions responsively",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 20489,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:59:16.707Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8d26aba2f1354b7e3d74-87f595cfbbc6f2c22192",
+              "file": "visual/applitools.test.ts",
+              "line": 65,
+              "column": 9
+            },
+            {
+              "title": "Should smartly detect visual changes",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-safari",
+                  "projectName": "mobile-safari",
+                  "results": [
+                    {
+                      "workerIndex": 19,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 16107,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T20:08:59.063Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8d26aba2f1354b7e3d74-81352baff9dc51957931",
+              "file": "visual/applitools.test.ts",
+              "line": 20,
+              "column": 9
+            },
+            {
+              "title": "Should adapt to all resolutions responsively",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-safari",
+                  "projectName": "mobile-safari",
+                  "results": [
+                    {
+                      "workerIndex": 19,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 19738,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T20:09:15.202Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8d26aba2f1354b7e3d74-5161ac463007e1b53001",
+              "file": "visual/applitools.test.ts",
+              "line": 65,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "visual\\percy.test.ts",
+      "file": "visual/percy.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Percy Visual Testing",
+          "file": "visual/percy.test.ts",
+          "line": 5,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Landing page responsive visual testing",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1110,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[\u001b[95mpercy\u001b[39m] Percy is not running, disabling snapshots\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:28:39.120Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4aa78a54d8c17596550a-d10a68460d6f025d3766",
+              "file": "visual/percy.test.ts",
+              "line": 6,
+              "column": 9
+            },
+            {
+              "title": "Initial state, added, completed, active, and completed tasks",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1214,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:28:40.259Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4aa78a54d8c17596550a-e1156fdee9d84f8b9772",
+              "file": "visual/percy.test.ts",
+              "line": 12,
+              "column": 9
+            },
+            {
+              "title": "Landing page responsive visual testing",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1276,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[\u001b[95mpercy\u001b[39m] Percy is not running, disabling snapshots\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:39:11.408Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4aa78a54d8c17596550a-15456d8ad5f5c0ba328b",
+              "file": "visual/percy.test.ts",
+              "line": 6,
+              "column": 9
+            },
+            {
+              "title": "Initial state, added, completed, active, and completed tasks",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2030,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:39:12.705Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4aa78a54d8c17596550a-ab2731d05ead878d87c1",
+              "file": "visual/percy.test.ts",
+              "line": 12,
+              "column": 9
+            },
+            {
+              "title": "Landing page responsive visual testing",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1205,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[\u001b[95mpercy\u001b[39m] Percy is not running, disabling snapshots\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:49:16.405Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4aa78a54d8c17596550a-9152e325d0348d48e328",
+              "file": "visual/percy.test.ts",
+              "line": 6,
+              "column": 9
+            },
+            {
+              "title": "Initial state, added, completed, active, and completed tasks",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2079,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:49:17.626Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4aa78a54d8c17596550a-104dc5bf0b404d002ffa",
+              "file": "visual/percy.test.ts",
+              "line": 12,
+              "column": 9
+            },
+            {
+              "title": "Landing page responsive visual testing",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 945,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[\u001b[95mpercy\u001b[39m] Percy is not running, disabling snapshots\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:59:37.225Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4aa78a54d8c17596550a-5e8219fa7d677ad0b5a9",
+              "file": "visual/percy.test.ts",
+              "line": 6,
+              "column": 9
+            },
+            {
+              "title": "Initial state, added, completed, active, and completed tasks",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1077,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T19:59:38.180Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4aa78a54d8c17596550a-fb591531f63eb8f1379c",
+              "file": "visual/percy.test.ts",
+              "line": 12,
+              "column": 9
+            },
+            {
+              "title": "Landing page responsive visual testing",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-safari",
+                  "projectName": "mobile-safari",
+                  "results": [
+                    {
+                      "workerIndex": 19,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3087,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[\u001b[95mpercy\u001b[39m] Percy is not running, disabling snapshots\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T20:09:34.971Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4aa78a54d8c17596550a-37bad4f6e52618a96355",
+              "file": "visual/percy.test.ts",
+              "line": 6,
+              "column": 9
+            },
+            {
+              "title": "Initial state, added, completed, active, and completed tasks",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-safari",
+                  "projectName": "mobile-safari",
+                  "results": [
+                    {
+                      "workerIndex": 19,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1795,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T20:09:38.071Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4aa78a54d8c17596550a-d711ddd402c61a9e4d61",
+              "file": "visual/percy.test.ts",
+              "line": 12,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-09-05T19:18:24.027Z",
+    "duration": 3075902.716,
+    "expected": 30,
+    "skipped": 0,
+    "unexpected": 5,
+    "flaky": 0
+  }
+}

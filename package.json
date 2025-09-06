@@ -1,0 +1,30 @@
+{
+  "name": "playwright-visual-testing-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:percy": "percy exec -- playwright test tests/visual/percy.test.ts",
+    "test:applitools": "playwright test tests/visual/applitools.test.ts",
+    "test:exploratory": "playwright test tests/intelligent/exploratory.test.ts",
+    "test:ux": "playwright test tests/intelligent/ux-mapping.test.ts",
+    "test:all-visual": "npm run test:percy && npm run test:applitools",
+    "report": "playwright show-report",
+    "install-browsers": "playwright install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@applitools/eyes-playwright": "^1.39.5",
+    "@percy/cli": "^1.31.1",
+    "@percy/playwright": "^1.0.9",
+    "@playwright/test": "^1.55.0",
+    "dotenv": "^17.2.2",
+    "typescript": "^5.9.2"
+  }
+}

@@ -1,0 +1,1468 @@
+<testsuites id="" name="" tests="35" failures="5" skipped="0" errors="0" time="3075.902716">
+<testsuite name="basic-e2e.test.ts" timestamp="2025-09-05T19:18:24.713Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.42" errors="0">
+<testcase name="Demo E2E - BugMentor › Should navigate and complete the form" classname="basic-e2e.test.ts" time="1.42">
+</testcase>
+</testsuite>
+<testsuite name="intelligent\exploratory.test.ts" timestamp="2025-09-05T19:18:24.713Z" hostname="chromium" tests="1" failures="1" skipped="0" time="561.43" errors="0">
+<testcase name="Automated Exploratory Testing › Should explore the app smartly" classname="intelligent\exploratory.test.ts" time="561.43">
+<failure message="exploratory.test.ts:5:9 Should explore the app smartly" type="FAILURE">
+<![CDATA[  [chromium] › intelligent\exploratory.test.ts:5:9 › Automated Exploratory Testing › Should explore the app smartly 
+
+    Test timeout of 180000ms exceeded.
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium\error-context.md
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Test timeout of 180000ms exceeded.
+
+    Error: Test 'AI Guided Exploration' of 'Exploratory Testing' detected differences! See details at: https://eyes.applitools.com/app/batches/00000251645213137309/00000251645200636946?accountId=ZXsw_GZYDU2li1naapJ8pw__
+
+      104 |         } finally {
+      105 |             // Ensure eyes.close() is called even if errors occur
+    > 106 |             await eyes.close();
+          |             ^
+      107 |         }
+      108 |     });
+      109 | });
+        at Eyes.getResults (C:\Users\matias.magni2\Documents\dev\mine\playwright-visual-testing-demo\node_modules\@applitools\eyes\dist\Eyes.js:435:27)
+        at Eyes.close (C:\Users\matias.magni2\Documents\dev\mine\playwright-visual-testing-demo\node_modules\@applitools\eyes\dist\Eyes.js:393:26)
+        at C:\Users\matias.magni2\Documents\dev\mine\playwright-visual-testing-demo\tests\intelligent\exploratory.test.ts:106:13
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium-retry1\trace.zip
+    Usage:
+
+        yarn playwright show-trace ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Test timeout of 180000ms exceeded.
+
+    Error: Test 'AI Guided Exploration' of 'Exploratory Testing' detected differences! See details at: https://eyes.applitools.com/app/batches/00000251645213137309/00000251645200449062?accountId=ZXsw_GZYDU2li1naapJ8pw__
+
+      104 |         } finally {
+      105 |             // Ensure eyes.close() is called even if errors occur
+    > 106 |             await eyes.close();
+          |             ^
+      107 |         }
+      108 |     });
+      109 | });
+        at Eyes.getResults (C:\Users\matias.magni2\Documents\dev\mine\playwright-visual-testing-demo\node_modules\@applitools\eyes\dist\Eyes.js:435:27)
+        at Eyes.close (C:\Users\matias.magni2\Documents\dev\mine\playwright-visual-testing-demo\node_modules\@applitools\eyes\dist\Eyes.js:393:26)
+        at C:\Users\matias.magni2\Documents\dev\mine\playwright-visual-testing-demo\tests\intelligent\exploratory.test.ts:106:13
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium-retry2\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---
+🔍 Found 4 interactive elements on this page
+🎯 Exploring: A - "real TodoMVC app."
+➡️ Navigated to new page: https://todomvc.com/
+
+--- Exploring Page: https://todomvc.com/ (Page 2/5) ---
+🔍 Found 82 interactive elements on this page
+🎯 Exploring: A - "Download"
+🎯 Exploring: A - "Blog"
+➡️ Navigated to new page: https://medium.com/@tastejs
+
+--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---
+🔍 Found 58 interactive elements on this page
+⏭️ Skipping hidden/disabled element: A - "Sitemap"
+⏭️ Skipping hidden/disabled element: A - "Open in app"
+⏭️ Skipping hidden/disabled element: BUTTON - "Sign up"
+⏭️ Skipping hidden/disabled element: A - "Sign in"
+🎯 Exploring: A - "Medium Logo"
+🎯 Exploring: A - "Sign in"
+🎯 Exploring: A - "Get started"
+⚠️ General error interacting with A - "Get started": Error: locator.hover: Test timeout of 180000ms exceeded.
+Call log:
+[2m  - waiting for locator('input, button, a, [role="button"]').filter({ hasNotText: 'View on GitHub' }).nth(6)[22m
+[2m    - locator resolved to <a data-discover="true" rel="noopener follow" class="ah ai aj ff al am an ao ap aq ar as at au av" href="/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2F&source=--------------------------lo_home_nav------------------">…</a>[22m
+[2m  - attempting hover action[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div role="dialog" tabindex="-1" aria-modal="true" class="ac r cr tm tn to tp tq tr rh o td lg kx ts">…</div> from <div>…</div> subtree intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div role="dialog" tabindex="-1" aria-modal="true" class="ac r cr tm tn to tp tq tr rh o td lg kx ts">…</div> from <div>…</div> subtree intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m      - waiting 100ms[22m
+[2m    250 × waiting for element to be visible and stable[22m
+[2m        - element is visible and stable[22m
+[2m        - scrolling into view if needed[22m
+[2m        - done scrolling[22m
+[2m        - <div role="dialog" tabindex="-1" aria-modal="true" class="ac r cr tm tn to tp tq tr rh o td lg kx ts">…</div> from <div>…</div> subtree intercepts pointer events[22m
+[2m      - retrying hover action[22m
+[2m        - waiting 500ms[22m
+
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium\error-context.md]]
+
+--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---
+🔍 Found 4 interactive elements on this page
+🎯 Exploring: A - "real TodoMVC app."
+➡️ Navigated to new page: https://todomvc.com/
+
+--- Exploring Page: https://todomvc.com/ (Page 2/5) ---
+🔍 Found 82 interactive elements on this page
+🎯 Exploring: A - "Download"
+🎯 Exploring: A - "Blog"
+➡️ Navigated to new page: https://medium.com/@tastejs
+
+--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---
+🔍 Found 58 interactive elements on this page
+⏭️ Skipping hidden/disabled element: A - "Sitemap"
+⏭️ Skipping hidden/disabled element: A - "Open in app"
+⏭️ Skipping hidden/disabled element: BUTTON - "Sign up"
+⏭️ Skipping hidden/disabled element: A - "Sign in"
+🎯 Exploring: A - "Medium Logo"
+🎯 Exploring: A - "Sign in"
+🎯 Exploring: A - "Get started"
+⚠️ General error interacting with A - "Get started": Error: locator.hover: Test timeout of 180000ms exceeded.
+Call log:
+[2m  - waiting for locator('input, button, a, [role="button"]').filter({ hasNotText: 'View on GitHub' }).nth(6)[22m
+[2m    - locator resolved to <a data-discover="true" rel="noopener follow" class="ah ai aj ff al am an ao ap aq ar as at au av" href="/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2F&source=--------------------------lo_home_nav------------------">…</a>[22m
+[2m  - attempting hover action[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div role="dialog" tabindex="-1" aria-modal="true" class="ac r cr tm tn to tp tq tr rh o td lg kx ts">…</div> from <div>…</div> subtree intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div role="dialog" tabindex="-1" aria-modal="true" class="ac r cr tm tn to tp tq tr rh o td lg kx ts">…</div> from <div>…</div> subtree intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m      - waiting 100ms[22m
+[2m    220 × waiting for element to be visible and stable[22m
+[2m        - element is visible and stable[22m
+[2m        - scrolling into view if needed[22m
+[2m        - done scrolling[22m
+[2m        - <div role="dialog" tabindex="-1" aria-modal="true" class="ac r cr tm tn to tp tq tr rh o td lg kx ts">…</div> from <div>…</div> subtree intercepts pointer events[22m
+[2m      - retrying hover action[22m
+[2m        - waiting 500ms[22m
+
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium-retry1\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium-retry1\video.webm]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium-retry1\error-context.md]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium-retry1\trace.zip]]
+
+--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---
+🔍 Found 4 interactive elements on this page
+🎯 Exploring: A - "real TodoMVC app."
+➡️ Navigated to new page: https://todomvc.com/
+
+--- Exploring Page: https://todomvc.com/ (Page 2/5) ---
+🔍 Found 82 interactive elements on this page
+🎯 Exploring: A - "Download"
+🎯 Exploring: A - "Blog"
+➡️ Navigated to new page: https://medium.com/@tastejs
+
+--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---
+🔍 Found 58 interactive elements on this page
+⏭️ Skipping hidden/disabled element: A - "Sitemap"
+⏭️ Skipping hidden/disabled element: A - "Open in app"
+⏭️ Skipping hidden/disabled element: BUTTON - "Sign up"
+⏭️ Skipping hidden/disabled element: A - "Sign in"
+🎯 Exploring: A - "Medium Logo"
+🎯 Exploring: A - "Sign in"
+🎯 Exploring: A - "Get started"
+⚠️ General error interacting with A - "Get started": Error: locator.hover: Test timeout of 180000ms exceeded.
+Call log:
+[2m  - waiting for locator('input, button, a, [role="button"]').filter({ hasNotText: 'View on GitHub' }).nth(6)[22m
+[2m    - locator resolved to <a data-discover="true" rel="noopener follow" class="ah ai aj ff al am an ao ap aq ar as at au av" href="/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2F&source=--------------------------lo_home_nav------------------">…</a>[22m
+[2m  - attempting hover action[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div role="dialog" tabindex="-1" aria-modal="true" class="ac r cr tm tn to tp tq tr rh o td lg kx ts">…</div> from <div>…</div> subtree intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div role="dialog" tabindex="-1" aria-modal="true" class="ac r cr tm tn to tp tq tr rh o td lg kx ts">…</div> from <div>…</div> subtree intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m      - waiting 100ms[22m
+[2m    248 × waiting for element to be visible and stable[22m
+[2m        - element is visible and stable[22m
+[2m        - scrolling into view if needed[22m
+[2m        - done scrolling[22m
+[2m        - <div role="dialog" tabindex="-1" aria-modal="true" class="ac r cr tm tn to tp tq tr rh o td lg kx ts">…</div> from <div>…</div> subtree intercepts pointer events[22m
+[2m      - retrying hover action[22m
+[2m        - waiting 500ms[22m
+
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium-retry2\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium-retry2\video.webm]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-chromium-retry2\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="intelligent\ux-mapping.test.ts" timestamp="2025-09-05T19:18:24.713Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.433" errors="0">
+<testcase name="UX Mapping › Should generate UX flow map" classname="intelligent\ux-mapping.test.ts" time="2.433">
+<system-out>
+<![CDATA[📍 Paso 1: Navegar en Página principal
+📍 Paso 2: Click en Input de nueva tarea
+📍 Paso 3: Escribir en Texto en input
+📍 Paso 4: Enviar en Formulario de tarea
+📍 Paso 5: Escribir en Tarea: Segunda tarea
+📍 Paso 6: Enviar en Nueva tarea
+📍 Paso 7: Escribir en Tarea: Tercera tarea importante
+📍 Paso 8: Enviar en Nueva tarea
+📍 Paso 9: Marcar completada en Primera tarea
+📍 Paso 10: Filtrar en Tareas activas
+📍 Paso 11: Filtrar en Tareas completadas
+📍 Paso 12: Eliminar en Tarea completada
+✅ Journey completado: 12 pasos en 1173ms
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="visual\applitools.test.ts" timestamp="2025-09-05T19:18:24.713Z" hostname="chromium" tests="2" failures="0" skipped="0" time="40.174" errors="0">
+<testcase name="AI Visual Testing con Applitools › Should smartly detect visual changes" classname="visual\applitools.test.ts" time="21.377">
+</testcase>
+<testcase name="AI Visual Testing con Applitools › Should adapt to all resolutions responsively" classname="visual\applitools.test.ts" time="18.797">
+</testcase>
+</testsuite>
+<testsuite name="visual\percy.test.ts" timestamp="2025-09-05T19:18:24.713Z" hostname="chromium" tests="2" failures="0" skipped="0" time="2.324" errors="0">
+<testcase name="Percy Visual Testing › Landing page responsive visual testing" classname="visual\percy.test.ts" time="1.11">
+<system-out>
+<![CDATA[[[95mpercy[39m] Percy is not running, disabling snapshots
+]]>
+</system-out>
+</testcase>
+<testcase name="Percy Visual Testing › Initial state, added, completed, active, and completed tasks" classname="visual\percy.test.ts" time="1.214">
+</testcase>
+</testsuite>
+<testsuite name="basic-e2e.test.ts" timestamp="2025-09-05T19:18:24.713Z" hostname="firefox" tests="1" failures="0" skipped="0" time="2.649" errors="0">
+<testcase name="Demo E2E - BugMentor › Should navigate and complete the form" classname="basic-e2e.test.ts" time="2.649">
+</testcase>
+</testsuite>
+<testsuite name="intelligent\exploratory.test.ts" timestamp="2025-09-05T19:18:24.713Z" hostname="firefox" tests="1" failures="1" skipped="0" time="554.016" errors="0">
+<testcase name="Automated Exploratory Testing › Should explore the app smartly" classname="intelligent\exploratory.test.ts" time="554.016">
+<failure message="exploratory.test.ts:5:9 Should explore the app smartly" type="FAILURE">
+<![CDATA[  [firefox] › intelligent\exploratory.test.ts:5:9 › Automated Exploratory Testing › Should explore the app smartly 
+
+    Test timeout of 180000ms exceeded.
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox\error-context.md
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Test timeout of 180000ms exceeded.
+
+    Error: Test 'AI Guided Exploration' of 'Exploratory Testing' detected differences! See details at: https://eyes.applitools.com/app/batches/00000251645213137309/00000251645200022693?accountId=ZXsw_GZYDU2li1naapJ8pw__
+
+      104 |         } finally {
+      105 |             // Ensure eyes.close() is called even if errors occur
+    > 106 |             await eyes.close();
+          |             ^
+      107 |         }
+      108 |     });
+      109 | });
+        at Eyes.getResults (C:\Users\matias.magni2\Documents\dev\mine\playwright-visual-testing-demo\node_modules\@applitools\eyes\dist\Eyes.js:435:27)
+        at Eyes.close (C:\Users\matias.magni2\Documents\dev\mine\playwright-visual-testing-demo\node_modules\@applitools\eyes\dist\Eyes.js:393:26)
+        at C:\Users\matias.magni2\Documents\dev\mine\playwright-visual-testing-demo\tests\intelligent\exploratory.test.ts:106:13
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox-retry1\trace.zip
+    Usage:
+
+        yarn playwright show-trace ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Test timeout of 180000ms exceeded.
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox-retry2\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---
+🔍 Found 4 interactive elements on this page
+🎯 Exploring: A - "real TodoMVC app."
+➡️ Navigated to new page: https://todomvc.com/
+
+--- Exploring Page: https://todomvc.com/ (Page 2/5) ---
+🔍 Found 82 interactive elements on this page
+🎯 Exploring: A - "Download"
+🎯 Exploring: A - "Blog"
+➡️ Navigated to new page: https://medium.com/@tastejs
+
+--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---
+🔍 Found 58 interactive elements on this page
+⏭️ Skipping hidden/disabled element: A - "Sitemap"
+⏭️ Skipping hidden/disabled element: A - "Open in app"
+⏭️ Skipping hidden/disabled element: BUTTON - "Sign up"
+⏭️ Skipping hidden/disabled element: A - "Sign in"
+🎯 Exploring: A - "Medium Logo"
+🎯 Exploring: A - "Sign in"
+⚠️ General error interacting with A - "Sign in": Error: locator.hover: Test timeout of 180000ms exceeded.
+Call log:
+[2m  - waiting for locator('input, button, a, [role="button"]').filter({ hasNotText: 'View on GitHub' }).nth(5)[22m
+[2m    - locator resolved to <a data-discover="true" rel="noopener follow" class="ah ai aj ff al am an ao ap aq ar as at au av" href="/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F&source=--------------------------lo_home_nav------------------">Sign in</a>[22m
+[2m  - attempting hover action[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <iframe class="L5Fo6c-PQbLGe" title="Diálogo de Acceder con Google" src="https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=jqGg17u-ZWOsXwYvyOV93Ep_sI17GiYvxH6Qg-fE984&is_itp=true&channel_id=ab6beaecd810797e0e4229f2c5d5f06d217eba247789e05778064db6c45755fb&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth"></iframe> from <div id="credential_picker_container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <iframe class="L5Fo6c-PQbLGe" title="Diálogo de Acceder con Google" src="https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=jqGg17u-ZWOsXwYvyOV93Ep_sI17GiYvxH6Qg-fE984&is_itp=true&channel_id=ab6beaecd810797e0e4229f2c5d5f06d217eba247789e05778064db6c45755fb&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth"></iframe> from <div id="credential_picker_container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m      - waiting 100ms[22m
+[2m    270 × waiting for element to be visible and stable[22m
+[2m        - element is visible and stable[22m
+[2m        - scrolling into view if needed[22m
+[2m        - done scrolling[22m
+[2m        - <iframe class="L5Fo6c-PQbLGe" title="Diálogo de Acceder con Google" src="https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=jqGg17u-ZWOsXwYvyOV93Ep_sI17GiYvxH6Qg-fE984&is_itp=true&channel_id=ab6beaecd810797e0e4229f2c5d5f06d217eba247789e05778064db6c45755fb&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth"></iframe> from <div id="credential_picker_container">…</div> subtree intercepts pointer events[22m
+[2m      - retrying hover action[22m
+[2m        - waiting 500ms[22m
+
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox\video.webm]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox\error-context.md]]
+
+--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---
+🔍 Found 4 interactive elements on this page
+🎯 Exploring: A - "real TodoMVC app."
+➡️ Navigated to new page: https://todomvc.com/
+
+--- Exploring Page: https://todomvc.com/ (Page 2/5) ---
+🔍 Found 82 interactive elements on this page
+🎯 Exploring: A - "Download"
+🎯 Exploring: A - "Blog"
+➡️ Navigated to new page: https://medium.com/@tastejs
+
+--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---
+🔍 Found 58 interactive elements on this page
+⏭️ Skipping hidden/disabled element: A - "Sitemap"
+⏭️ Skipping hidden/disabled element: A - "Open in app"
+⏭️ Skipping hidden/disabled element: BUTTON - "Sign up"
+⏭️ Skipping hidden/disabled element: A - "Sign in"
+🎯 Exploring: A - "Medium Logo"
+🎯 Exploring: A - "Sign in"
+⚠️ General error interacting with A - "Sign in": Error: locator.hover: Test timeout of 180000ms exceeded.
+Call log:
+[2m  - waiting for locator('input, button, a, [role="button"]').filter({ hasNotText: 'View on GitHub' }).nth(5)[22m
+[2m    - locator resolved to <a data-discover="true" rel="noopener follow" class="ah ai aj ff al am an ao ap aq ar as at au av" href="/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F&source=--------------------------lo_home_nav------------------">Sign in</a>[22m
+[2m  - attempting hover action[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <iframe class="L5Fo6c-PQbLGe" title="Diálogo de Acceder con Google" src="https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=n1PjHqNMBUGLXLstkpnGMgTAGxvUYJxdnSicWKsBZL4&is_itp=true&channel_id=a037552b5951c96183f4ed091e1a87cd6661e6a5cb0c79b761b850ae859f43f8&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth"></iframe> from <div id="credential_picker_container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <iframe class="L5Fo6c-PQbLGe" title="Diálogo de Acceder con Google" src="https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=n1PjHqNMBUGLXLstkpnGMgTAGxvUYJxdnSicWKsBZL4&is_itp=true&channel_id=a037552b5951c96183f4ed091e1a87cd6661e6a5cb0c79b761b850ae859f43f8&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth"></iframe> from <div id="credential_picker_container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m      - waiting 100ms[22m
+[2m    268 × waiting for element to be visible and stable[22m
+[2m        - element is visible and stable[22m
+[2m        - scrolling into view if needed[22m
+[2m        - done scrolling[22m
+[2m        - <iframe class="L5Fo6c-PQbLGe" title="Diálogo de Acceder con Google" src="https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=n1PjHqNMBUGLXLstkpnGMgTAGxvUYJxdnSicWKsBZL4&is_itp=true&channel_id=a037552b5951c96183f4ed091e1a87cd6661e6a5cb0c79b761b850ae859f43f8&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth"></iframe> from <div id="credential_picker_container">…</div> subtree intercepts pointer events[22m
+[2m      - retrying hover action[22m
+[2m        - waiting 500ms[22m
+
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox-retry1\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox-retry1\video.webm]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox-retry1\error-context.md]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox-retry1\trace.zip]]
+
+--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---
+🔍 Found 4 interactive elements on this page
+🎯 Exploring: A - "real TodoMVC app."
+➡️ Navigated to new page: https://todomvc.com/
+
+--- Exploring Page: https://todomvc.com/ (Page 2/5) ---
+🔍 Found 82 interactive elements on this page
+🎯 Exploring: A - "Download"
+🎯 Exploring: A - "Blog"
+➡️ Navigated to new page: https://medium.com/@tastejs
+
+--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---
+🔍 Found 58 interactive elements on this page
+⏭️ Skipping hidden/disabled element: A - "Sitemap"
+⏭️ Skipping hidden/disabled element: A - "Open in app"
+⏭️ Skipping hidden/disabled element: BUTTON - "Sign up"
+⏭️ Skipping hidden/disabled element: A - "Sign in"
+🎯 Exploring: A - "Medium Logo"
+🎯 Exploring: A - "Sign in"
+⚠️ General error interacting with A - "Sign in": Error: locator.hover: Test timeout of 180000ms exceeded.
+Call log:
+[2m  - waiting for locator('input, button, a, [role="button"]').filter({ hasNotText: 'View on GitHub' }).nth(5)[22m
+[2m    - locator resolved to <a data-discover="true" rel="noopener follow" class="ah ai aj ff al am an ao ap aq ar as at au av" href="/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F&source=--------------------------lo_home_nav------------------">Sign in</a>[22m
+[2m  - attempting hover action[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <iframe class="L5Fo6c-PQbLGe" title="Diálogo de Acceder con Google" src="https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=X1A-zv2UPj7i7M0_yX1oR7tl6rfqXrA3J0PGg8MZ-lg&is_itp=true&channel_id=df421b41bb8b317a2ab7ac10926ca6a7856627dcf98b7c3738a5928c0d15ffee&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth"></iframe> from <div id="credential_picker_container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <iframe class="L5Fo6c-PQbLGe" title="Diálogo de Acceder con Google" src="https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=X1A-zv2UPj7i7M0_yX1oR7tl6rfqXrA3J0PGg8MZ-lg&is_itp=true&channel_id=df421b41bb8b317a2ab7ac10926ca6a7856627dcf98b7c3738a5928c0d15ffee&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth"></iframe> from <div id="credential_picker_container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m      - waiting 100ms[22m
+[2m    264 × waiting for element to be visible and stable[22m
+[2m        - element is visible and stable[22m
+[2m        - scrolling into view if needed[22m
+[2m        - done scrolling[22m
+[2m        - <iframe class="L5Fo6c-PQbLGe" title="Diálogo de Acceder con Google" src="https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=X1A-zv2UPj7i7M0_yX1oR7tl6rfqXrA3J0PGg8MZ-lg&is_itp=true&channel_id=df421b41bb8b317a2ab7ac10926ca6a7856627dcf98b7c3738a5928c0d15ffee&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth"></iframe> from <div id="credential_picker_container">…</div> subtree intercepts pointer events[22m
+[2m      - retrying hover action[22m
+[2m        - waiting 500ms[22m
+
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox-retry2\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox-retry2\video.webm]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-firefox-retry2\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="intelligent\ux-mapping.test.ts" timestamp="2025-09-05T19:18:24.713Z" hostname="firefox" tests="1" failures="0" skipped="0" time="3.562" errors="0">
+<testcase name="UX Mapping › Should generate UX flow map" classname="intelligent\ux-mapping.test.ts" time="3.562">
+<system-out>
+<![CDATA[📍 Paso 1: Navegar en Página principal
+📍 Paso 2: Click en Input de nueva tarea
+📍 Paso 3: Escribir en Texto en input
+📍 Paso 4: Enviar en Formulario de tarea
+📍 Paso 5: Escribir en Tarea: Segunda tarea
+📍 Paso 6: Enviar en Nueva tarea
+📍 Paso 7: Escribir en Tarea: Tercera tarea importante
+📍 Paso 8: Enviar en Nueva tarea
+📍 Paso 9: Marcar completada en Primera tarea
+📍 Paso 10: Filtrar en Tareas activas
+📍 Paso 11: Filtrar en Tareas completadas
+📍 Paso 12: Eliminar en Tarea completada
+✅ Journey completado: 12 pasos en 1317ms
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="visual\applitools.test.ts" timestamp="2025-09-05T19:18:24.713Z" hostname="firefox" tests="2" failures="0" skipped="0" time="39.468" errors="0">
+<testcase name="AI Visual Testing con Applitools › Should smartly detect visual changes" classname="visual\applitools.test.ts" time="22.867">
+</testcase>
+<testcase name="AI Visual Testing con Applitools › Should adapt to all resolutions responsively" classname="visual\applitools.test.ts" time="16.601">
+</testcase>
+</testsuite>
+<testsuite name="visual\percy.test.ts" timestamp="2025-09-05T19:18:24.713Z" hostname="firefox" tests="2" failures="0" skipped="0" time="3.306" errors="0">
+<testcase name="Percy Visual Testing › Landing page responsive visual testing" classname="visual\percy.test.ts" time="1.276">
+<system-out>
+<![CDATA[[[95mpercy[39m] Percy is not running, disabling snapshots
+]]>
+</system-out>
+</testcase>
+<testcase name="Percy Visual Testing › Initial state, added, completed, active, and completed tasks" classname="visual\percy.test.ts" time="2.03">
+</testcase>
+</testsuite>
+<testsuite name="basic-e2e.test.ts" timestamp="2025-09-05T19:18:24.713Z" hostname="webkit" tests="1" failures="0" skipped="0" time="2.239" errors="0">
+<testcase name="Demo E2E - BugMentor › Should navigate and complete the form" classname="basic-e2e.test.ts" time="2.239">
+</testcase>
+</testsuite>
+<testsuite name="intelligent\exploratory.test.ts" timestamp="2025-09-05T19:18:24.713Z" hostname="webkit" tests="1" failures="1" skipped="0" time="542.13" errors="0">
+<testcase name="Automated Exploratory Testing › Should explore the app smartly" classname="intelligent\exploratory.test.ts" time="542.13">
+<failure message="exploratory.test.ts:5:9 Should explore the app smartly" type="FAILURE">
+<![CDATA[  [webkit] › intelligent\exploratory.test.ts:5:9 › Automated Exploratory Testing › Should explore the app smartly 
+
+    Test timeout of 180000ms exceeded.
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit\error-context.md
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Test timeout of 180000ms exceeded.
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit-retry1\trace.zip
+    Usage:
+
+        yarn playwright show-trace ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Test timeout of 180000ms exceeded.
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit-retry2\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---
+🔍 Found 4 interactive elements on this page
+🎯 Exploring: A - "real TodoMVC app."
+➡️ Navigated to new page: https://todomvc.com/
+
+--- Exploring Page: https://todomvc.com/ (Page 2/5) ---
+🔍 Found 82 interactive elements on this page
+🎯 Exploring: A - "Download"
+🎯 Exploring: A - "Blog"
+➡️ Navigated to new page: https://medium.com/@tastejs
+
+--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---
+🔍 Found 58 interactive elements on this page
+⏭️ Skipping hidden/disabled element: A - "Sitemap"
+⏭️ Skipping hidden/disabled element: A - "Open in app"
+⏭️ Skipping hidden/disabled element: BUTTON - "Sign up"
+⏭️ Skipping hidden/disabled element: A - "Sign in"
+🎯 Exploring: A - "Medium Logo"
+🎯 Exploring: A - "Sign in"
+⚠️ General error interacting with A - "Sign in": Error: locator.hover: Test timeout of 180000ms exceeded.
+Call log:
+[2m  - waiting for locator('input, button, a, [role="button"]').filter({ hasNotText: 'View on GitHub' }).nth(5)[22m
+[2m    - locator resolved to <a data-discover="true" rel="noopener follow" class="ah ai aj ff al am an ao ap aq ar as at au av" href="/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F&source=--------------------------lo_home_nav------------------">Sign in</a>[22m
+[2m  - attempting hover action[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <iframe class="L5Fo6c-PQbLGe" title="Diálogo de Acceder con Google" src="https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=W54K3FoBqdSlDZ52U42U6OfAZ6NK9YdwwJdEPW7Y-Jk&is_itp=true&channel_id=7f39caedf80abb74739368387be9fbddec8f5d5756c7789ce0ee99e037576cfe&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth"></iframe> from <div id="credential_picker_container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <iframe class="L5Fo6c-PQbLGe" title="Diálogo de Acceder con Google" src="https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=W54K3FoBqdSlDZ52U42U6OfAZ6NK9YdwwJdEPW7Y-Jk&is_itp=true&channel_id=7f39caedf80abb74739368387be9fbddec8f5d5756c7789ce0ee99e037576cfe&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth"></iframe> from <div id="credential_picker_container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m      - waiting 100ms[22m
+[2m    193 × waiting for element to be visible and stable[22m
+[2m        - element is visible and stable[22m
+[2m        - scrolling into view if needed[22m
+[2m        - done scrolling[22m
+[2m        - <iframe class="L5Fo6c-PQbLGe" title="Diálogo de Acceder con Google" src="https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=W54K3FoBqdSlDZ52U42U6OfAZ6NK9YdwwJdEPW7Y-Jk&is_itp=true&channel_id=7f39caedf80abb74739368387be9fbddec8f5d5756c7789ce0ee99e037576cfe&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth"></iframe> from <div id="credential_picker_container">…</div> subtree intercepts pointer events[22m
+[2m      - retrying hover action[22m
+[2m        - waiting 500ms[22m
+
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit\video.webm]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit\error-context.md]]
+
+--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---
+🔍 Found 4 interactive elements on this page
+🎯 Exploring: A - "real TodoMVC app."
+➡️ Navigated to new page: https://todomvc.com/
+
+--- Exploring Page: https://todomvc.com/ (Page 2/5) ---
+🔍 Found 82 interactive elements on this page
+🎯 Exploring: A - "Download"
+🎯 Exploring: A - "Blog"
+➡️ Navigated to new page: https://medium.com/@tastejs
+
+--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---
+🔍 Found 58 interactive elements on this page
+⏭️ Skipping hidden/disabled element: A - "Sitemap"
+⏭️ Skipping hidden/disabled element: A - "Open in app"
+⏭️ Skipping hidden/disabled element: BUTTON - "Sign up"
+⏭️ Skipping hidden/disabled element: A - "Sign in"
+🎯 Exploring: A - "Medium Logo"
+🎯 Exploring: A - "Sign in"
+⚠️ General error interacting with A - "Sign in": Error: locator.hover: Test timeout of 180000ms exceeded.
+Call log:
+[2m  - waiting for locator('input, button, a, [role="button"]').filter({ hasNotText: 'View on GitHub' }).nth(5)[22m
+[2m    - locator resolved to <a data-discover="true" rel="noopener follow" class="ah ai aj ff al am an ao ap aq ar as at au av" href="/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F&source=--------------------------lo_home_nav------------------">Sign in</a>[22m
+[2m  - attempting hover action[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <iframe class="L5Fo6c-PQbLGe" title="Diálogo de Acceder con Google" src="https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=xryYOkLsJBCYhwPWloePvVGRRnA_LvrQxNgKfFmbL6A&is_itp=true&channel_id=fbf319a431796e2d52dbcd2b8267db15850d6090d9248d295a0969def88fbbba&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth"></iframe> from <div id="credential_picker_container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <iframe class="L5Fo6c-PQbLGe" title="Diálogo de Acceder con Google" src="https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=xryYOkLsJBCYhwPWloePvVGRRnA_LvrQxNgKfFmbL6A&is_itp=true&channel_id=fbf319a431796e2d52dbcd2b8267db15850d6090d9248d295a0969def88fbbba&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth"></iframe> from <div id="credential_picker_container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m      - waiting 100ms[22m
+[2m    141 × waiting for element to be visible and stable[22m
+[2m        - element is visible and stable[22m
+[2m        - scrolling into view if needed[22m
+[2m        - done scrolling[22m
+[2m        - <iframe class="L5Fo6c-PQbLGe" title="Diálogo de Acceder con Google" src="https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=xryYOkLsJBCYhwPWloePvVGRRnA_LvrQxNgKfFmbL6A&is_itp=true&channel_id=fbf319a431796e2d52dbcd2b8267db15850d6090d9248d295a0969def88fbbba&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth"></iframe> from <div id="credential_picker_container">…</div> subtree intercepts pointer events[22m
+[2m      - retrying hover action[22m
+[2m        - waiting 500ms[22m
+
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit-retry1\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit-retry1\video.webm]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit-retry1\error-context.md]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit-retry1\trace.zip]]
+
+--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---
+🔍 Found 4 interactive elements on this page
+🎯 Exploring: A - "real TodoMVC app."
+➡️ Navigated to new page: https://todomvc.com/
+
+--- Exploring Page: https://todomvc.com/ (Page 2/5) ---
+🔍 Found 82 interactive elements on this page
+🎯 Exploring: A - "Download"
+🎯 Exploring: A - "Blog"
+➡️ Navigated to new page: https://medium.com/@tastejs
+
+--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---
+🔍 Found 58 interactive elements on this page
+⏭️ Skipping hidden/disabled element: A - "Sitemap"
+⏭️ Skipping hidden/disabled element: A - "Open in app"
+⏭️ Skipping hidden/disabled element: BUTTON - "Sign up"
+⏭️ Skipping hidden/disabled element: A - "Sign in"
+🎯 Exploring: A - "Medium Logo"
+🎯 Exploring: A - "Sign in"
+⚠️ General error interacting with A - "Sign in": Error: locator.hover: Test timeout of 180000ms exceeded.
+Call log:
+[2m  - waiting for locator('input, button, a, [role="button"]').filter({ hasNotText: 'View on GitHub' }).nth(5)[22m
+[2m    - locator resolved to <a data-discover="true" rel="noopener follow" class="ah ai aj ff al am an ao ap aq ar as at au av" href="/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F&source=--------------------------lo_home_nav------------------">Sign in</a>[22m
+[2m  - attempting hover action[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <iframe class="L5Fo6c-PQbLGe" title="Diálogo de Acceder con Google" src="https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=J3Hjqsnd6xVM3I2QkzWqTSwESKEEWWPV1TK-m-dXuIo&is_itp=true&channel_id=f400c4886a21aec13421fc16695ac85c1aee993c3d255edeeebe8164db7091ed&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth"></iframe> from <div id="credential_picker_container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <iframe class="L5Fo6c-PQbLGe" title="Diálogo de Acceder con Google" src="https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=J3Hjqsnd6xVM3I2QkzWqTSwESKEEWWPV1TK-m-dXuIo&is_itp=true&channel_id=f400c4886a21aec13421fc16695ac85c1aee993c3d255edeeebe8164db7091ed&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth"></iframe> from <div id="credential_picker_container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m      - waiting 100ms[22m
+[2m    194 × waiting for element to be visible and stable[22m
+[2m        - element is visible and stable[22m
+[2m        - scrolling into view if needed[22m
+[2m        - done scrolling[22m
+[2m        - <iframe class="L5Fo6c-PQbLGe" title="Diálogo de Acceder con Google" src="https://accounts.google.com/gsi/iframe/select?client_id=216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=J3Hjqsnd6xVM3I2QkzWqTSwESKEEWWPV1TK-m-dXuIo&is_itp=true&channel_id=f400c4886a21aec13421fc16695ac85c1aee993c3d255edeeebe8164db7091ed&origin=https%3A%2F%2Fmedium.com&oauth2_auth_url=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth"></iframe> from <div id="credential_picker_container">…</div> subtree intercepts pointer events[22m
+[2m      - retrying hover action[22m
+[2m        - waiting 500ms[22m
+[2m    - waiting for element to be visible and stable[22m
+
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit-retry2\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit-retry2\video.webm]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-webkit-retry2\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="intelligent\ux-mapping.test.ts" timestamp="2025-09-05T19:18:24.713Z" hostname="webkit" tests="1" failures="0" skipped="0" time="5.145" errors="0">
+<testcase name="UX Mapping › Should generate UX flow map" classname="intelligent\ux-mapping.test.ts" time="5.145">
+<system-out>
+<![CDATA[📍 Paso 1: Navegar en Página principal
+📍 Paso 2: Click en Input de nueva tarea
+📍 Paso 3: Escribir en Texto en input
+📍 Paso 4: Enviar en Formulario de tarea
+📍 Paso 5: Escribir en Tarea: Segunda tarea
+📍 Paso 6: Enviar en Nueva tarea
+📍 Paso 7: Escribir en Tarea: Tercera tarea importante
+📍 Paso 8: Enviar en Nueva tarea
+📍 Paso 9: Marcar completada en Primera tarea
+📍 Paso 10: Filtrar en Tareas activas
+📍 Paso 11: Filtrar en Tareas completadas
+📍 Paso 12: Eliminar en Tarea completada
+✅ Journey completado: 12 pasos en 3674ms
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="visual\applitools.test.ts" timestamp="2025-09-05T19:18:24.713Z" hostname="webkit" tests="2" failures="0" skipped="0" time="41.289" errors="0">
+<testcase name="AI Visual Testing con Applitools › Should smartly detect visual changes" classname="visual\applitools.test.ts" time="21.472">
+</testcase>
+<testcase name="AI Visual Testing con Applitools › Should adapt to all resolutions responsively" classname="visual\applitools.test.ts" time="19.817">
+</testcase>
+</testsuite>
+<testsuite name="visual\percy.test.ts" timestamp="2025-09-05T19:18:24.713Z" hostname="webkit" tests="2" failures="0" skipped="0" time="3.284" errors="0">
+<testcase name="Percy Visual Testing › Landing page responsive visual testing" classname="visual\percy.test.ts" time="1.205">
+<system-out>
+<![CDATA[[[95mpercy[39m] Percy is not running, disabling snapshots
+]]>
+</system-out>
+</testcase>
+<testcase name="Percy Visual Testing › Initial state, added, completed, active, and completed tasks" classname="visual\percy.test.ts" time="2.079">
+</testcase>
+</testsuite>
+<testsuite name="basic-e2e.test.ts" timestamp="2025-09-05T19:18:24.713Z" hostname="mobile-chrome" tests="1" failures="0" skipped="0" time="3.324" errors="0">
+<testcase name="Demo E2E - BugMentor › Should navigate and complete the form" classname="basic-e2e.test.ts" time="3.324">
+</testcase>
+</testsuite>
+<testsuite name="intelligent\exploratory.test.ts" timestamp="2025-09-05T19:18:24.713Z" hostname="mobile-chrome" tests="1" failures="1" skipped="0" time="551.829" errors="0">
+<testcase name="Automated Exploratory Testing › Should explore the app smartly" classname="intelligent\exploratory.test.ts" time="551.829">
+<failure message="exploratory.test.ts:5:9 Should explore the app smartly" type="FAILURE">
+<![CDATA[  [mobile-chrome] › intelligent\exploratory.test.ts:5:9 › Automated Exploratory Testing › Should explore the app smartly 
+
+    Test timeout of 180000ms exceeded.
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome\error-context.md
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Test timeout of 180000ms exceeded.
+
+    Error: Test 'AI Guided Exploration' of 'Exploratory Testing' detected differences! See details at: https://eyes.applitools.com/app/batches/00000251645213137309/00000251645198783592?accountId=ZXsw_GZYDU2li1naapJ8pw__
+
+      104 |         } finally {
+      105 |             // Ensure eyes.close() is called even if errors occur
+    > 106 |             await eyes.close();
+          |             ^
+      107 |         }
+      108 |     });
+      109 | });
+        at Eyes.getResults (C:\Users\matias.magni2\Documents\dev\mine\playwright-visual-testing-demo\node_modules\@applitools\eyes\dist\Eyes.js:435:27)
+        at Eyes.close (C:\Users\matias.magni2\Documents\dev\mine\playwright-visual-testing-demo\node_modules\@applitools\eyes\dist\Eyes.js:393:26)
+        at C:\Users\matias.magni2\Documents\dev\mine\playwright-visual-testing-demo\tests\intelligent\exploratory.test.ts:106:13
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome-retry1\trace.zip
+    Usage:
+
+        yarn playwright show-trace ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Test timeout of 180000ms exceeded.
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome-retry2\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---
+🔍 Found 4 interactive elements on this page
+🎯 Exploring: A - "real TodoMVC app."
+➡️ Navigated to new page: https://todomvc.com/
+
+--- Exploring Page: https://todomvc.com/ (Page 2/5) ---
+🔍 Found 82 interactive elements on this page
+🎯 Exploring: A - "Download"
+🎯 Exploring: A - "Blog"
+➡️ Navigated to new page: https://medium.com/@tastejs
+
+--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---
+🔍 Found 34 interactive elements on this page
+⏭️ Skipping hidden/disabled element: A - "Sitemap"
+🎯 Exploring: A - "Open in app"
+➡️ Navigated to new page: https://play.google.com/store/apps/details?id=com.medium.reader&referrer=utm_source%3DmobileNavBar&source=---two_column_layout_nav-----------------------------------------
+
+--- Exploring Page: https://play.google.com/store/apps/details?id=com.medium.reader&referrer=utm_source%3DmobileNavBar&source=---two_column_layout_nav----------------------------------------- (Page 4/5) ---
+🔍 Found 100 interactive elements on this page
+🎯 Exploring: A - "Games"
+🎯 Exploring: A - "Apps"
+🎯 Exploring: A - "Books"
+🎯 Exploring: A - "Kids"
+🎯 Exploring: A - "google_logo Play"
+⏭️ Skipping hidden/disabled element: BUTTON - "Games"
+⏭️ Skipping hidden/disabled element: BUTTON - "Apps"
+⏭️ Skipping hidden/disabled element: BUTTON - "Books"
+⏭️ Skipping hidden/disabled element: BUTTON - "Kids"
+⏭️ Skipping hidden/disabled element: BUTTON - "none"
+🎯 Exploring: BUTTON - "search"
+⏭️ Skipping hidden/disabled element: A - "Apps"
+⏭️ Skipping hidden/disabled element: A - "Books"
+⏭️ Skipping hidden/disabled element: A - "Kids"
+⏭️ Skipping hidden/disabled element: A - "desktop_windowsWindows"
+⏭️ Skipping hidden/disabled element: A - "phone_androidPhone"
+⏭️ Skipping hidden/disabled element: A - "tablet_androidTablet"
+⏭️ Skipping hidden/disabled element: A - "tvTV"
+⏭️ Skipping hidden/disabled element: A - "laptop_chromebookChromebook"
+⏭️ Skipping hidden/disabled element: A - "watchWatch"
+⏭️ Skipping hidden/disabled element: BUTTON - "chevron_right"
+⏭️ Skipping hidden/disabled element: A - "Roblox4.4star"
+⏭️ Skipping hidden/disabled element: A - "Free Fire x NARUTO SHIPPUDEN4.3star"
+⏭️ Skipping hidden/disabled element: A - "Clash Royale4.4star"
+⏭️ Skipping hidden/disabled element: A - "Dream League Soccer 20254.5star"
+⏭️ Skipping hidden/disabled element: A - "EA SPORTS FC™ Mobile Soccer4.5star"
+⏭️ Skipping hidden/disabled element: A - "Stumble Guys4.5star"
+⏭️ Skipping hidden/disabled element: A - "Candy Crush Saga4.7star"
+⏭️ Skipping hidden/disabled element: A - "8 Ball Pool4.8star"
+⏭️ Skipping hidden/disabled element: A - "Brawl Stars4.1star"
+⏭️ Skipping hidden/disabled element: A - "Call of Duty: Mobile Season 84.1star"
+⏭️ Skipping hidden/disabled element: A - "eFootball™4.5star"
+⏭️ Skipping hidden/disabled element: A - "Pokémon GO4.0star"
+⏭️ Skipping hidden/disabled element: A - "Royal Match4.7star"
+⏭️ Skipping hidden/disabled element: A - "Mobile Legends: Bang Bang4.2star"
+⏭️ Skipping hidden/disabled element: A - "PUBG MOBILE4.0star"
+⏭️ Skipping hidden/disabled element: A - "DRAGON BALL LEGENDS4.4star"
+⏭️ Skipping hidden/disabled element: A - "Toon Blast4.6star"
+⏭️ Skipping hidden/disabled element: A - "Candy Crush Soda Saga4.5star"
+⏭️ Skipping hidden/disabled element: A - "Mario Kart Tour4.4star"
+⏭️ Skipping hidden/disabled element: A - "Dragon City: Mobile Adventure4.7star"
+⏭️ Skipping hidden/disabled element: BUTTON - "chevron_right"
+⏭️ Skipping hidden/disabled element: DIV - "Top free"
+⏭️ Skipping hidden/disabled element: DIV - "Top grossing"
+⏭️ Skipping hidden/disabled element: DIV - "Top paid"
+⏭️ Skipping hidden/disabled element: BUTTON - "chevron_right"
+⏭️ Skipping hidden/disabled element: A - "1ACECRAFTAction•Bulletstorm•Casual•Intense4.9star"
+⏭️ Skipping hidden/disabled element: A - "2RobloxAdventure•Simulation•Sandbox•Casual4.4star"
+⏭️ Skipping hidden/disabled element: A - "3Clash RoyaleStrategy•Tower defense•Multiplayer•Royalty4.4star"
+⏭️ Skipping hidden/disabled element: A - "4Block Blast!Puzzle•Block•Casual•Offline4.8star"
+⏭️ Skipping hidden/disabled element: A - "5Prison Escape JourneySimulation3.5star"
+⏭️ Skipping hidden/disabled element: A - "6Free Fire x NARUTO SHIPPUDENAction•Tactical shooter•Multiplayer•Gun4.3star"
+⏭️ Skipping hidden/disabled element: A - "7Magic Fashion: Doll DressupSimulation•Dress-up•Casual•Competitive4.3star"
+⏭️ Skipping hidden/disabled element: A - "8Snake Puzzle: Slither to EatPuzzle4.6star"
+⏭️ Skipping hidden/disabled element: A - "9Tile Club - Match Puzzle GamePuzzle•Match 3•Casual•Offline4.9star"
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome\video.webm]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome\error-context.md]]
+
+--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---
+🔍 Found 4 interactive elements on this page
+🎯 Exploring: A - "real TodoMVC app."
+➡️ Navigated to new page: https://todomvc.com/
+
+--- Exploring Page: https://todomvc.com/ (Page 2/5) ---
+🔍 Found 82 interactive elements on this page
+🎯 Exploring: A - "Download"
+🎯 Exploring: A - "Blog"
+➡️ Navigated to new page: https://medium.com/@tastejs
+
+--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---
+🔍 Found 34 interactive elements on this page
+⏭️ Skipping hidden/disabled element: A - "Sitemap"
+🎯 Exploring: A - "Open in app"
+➡️ Navigated to new page: https://play.google.com/store/apps/details?id=com.medium.reader&referrer=utm_source%3DmobileNavBar&source=---two_column_layout_nav-----------------------------------------
+
+--- Exploring Page: https://play.google.com/store/apps/details?id=com.medium.reader&referrer=utm_source%3DmobileNavBar&source=---two_column_layout_nav----------------------------------------- (Page 4/5) ---
+🔍 Found 100 interactive elements on this page
+🎯 Exploring: A - "Games"
+🎯 Exploring: A - "Apps"
+🎯 Exploring: A - "Books"
+🎯 Exploring: A - "Kids"
+🎯 Exploring: A - "google_logo Play"
+⏭️ Skipping hidden/disabled element: BUTTON - "Games"
+⏭️ Skipping hidden/disabled element: BUTTON - "Apps"
+⏭️ Skipping hidden/disabled element: BUTTON - "Books"
+⏭️ Skipping hidden/disabled element: BUTTON - "Kids"
+⏭️ Skipping hidden/disabled element: BUTTON - "none"
+🎯 Exploring: BUTTON - "search"
+⚠️ General error interacting with BUTTON - "search": Error: frame.evaluateHandle: Target page, context or browser has been closed
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome-retry1\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome-retry1\video.webm]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome-retry1\error-context.md]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome-retry1\trace.zip]]
+
+--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---
+🔍 Found 4 interactive elements on this page
+🎯 Exploring: A - "real TodoMVC app."
+➡️ Navigated to new page: https://todomvc.com/
+
+--- Exploring Page: https://todomvc.com/ (Page 2/5) ---
+🔍 Found 82 interactive elements on this page
+🎯 Exploring: A - "Download"
+🎯 Exploring: A - "Blog"
+➡️ Navigated to new page: https://medium.com/@tastejs
+
+--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---
+🔍 Found 34 interactive elements on this page
+⏭️ Skipping hidden/disabled element: A - "Sitemap"
+🎯 Exploring: A - "Open in app"
+➡️ Navigated to new page: https://play.google.com/store/apps/details?id=com.medium.reader&referrer=utm_source%3DmobileNavBar&source=---two_column_layout_nav-----------------------------------------
+
+--- Exploring Page: https://play.google.com/store/apps/details?id=com.medium.reader&referrer=utm_source%3DmobileNavBar&source=---two_column_layout_nav----------------------------------------- (Page 4/5) ---
+🔍 Found 100 interactive elements on this page
+🎯 Exploring: A - "Games"
+🎯 Exploring: A - "Apps"
+🎯 Exploring: A - "Books"
+🎯 Exploring: A - "Kids"
+🎯 Exploring: A - "google_logo Play"
+⏭️ Skipping hidden/disabled element: BUTTON - "Games"
+⏭️ Skipping hidden/disabled element: BUTTON - "Apps"
+⏭️ Skipping hidden/disabled element: BUTTON - "Books"
+⏭️ Skipping hidden/disabled element: BUTTON - "Kids"
+⏭️ Skipping hidden/disabled element: BUTTON - "none"
+🎯 Exploring: BUTTON - "search"
+⏭️ Skipping hidden/disabled element: A - "Apps"
+⏭️ Skipping hidden/disabled element: A - "Books"
+⏭️ Skipping hidden/disabled element: A - "Kids"
+⏭️ Skipping hidden/disabled element: A - "desktop_windowsWindows"
+⏭️ Skipping hidden/disabled element: A - "phone_androidPhone"
+⏭️ Skipping hidden/disabled element: A - "tablet_androidTablet"
+⏭️ Skipping hidden/disabled element: A - "tvTV"
+⏭️ Skipping hidden/disabled element: A - "laptop_chromebookChromebook"
+⏭️ Skipping hidden/disabled element: A - "watchWatch"
+⏭️ Skipping hidden/disabled element: BUTTON - "chevron_right"
+⏭️ Skipping hidden/disabled element: A - "Roblox4.4star"
+⏭️ Skipping hidden/disabled element: A - "Free Fire x NARUTO SHIPPUDEN4.3star"
+⏭️ Skipping hidden/disabled element: A - "Clash Royale4.4star"
+⏭️ Skipping hidden/disabled element: A - "Dream League Soccer 20254.5star"
+⏭️ Skipping hidden/disabled element: A - "EA SPORTS FC™ Mobile Soccer4.5star"
+⏭️ Skipping hidden/disabled element: A - "Stumble Guys4.5star"
+⏭️ Skipping hidden/disabled element: A - "Candy Crush Saga4.7star"
+⏭️ Skipping hidden/disabled element: A - "8 Ball Pool4.8star"
+⏭️ Skipping hidden/disabled element: A - "Brawl Stars4.1star"
+⏭️ Skipping hidden/disabled element: A - "Call of Duty: Mobile Season 84.1star"
+⏭️ Skipping hidden/disabled element: A - "eFootball™4.5star"
+⏭️ Skipping hidden/disabled element: A - "Pokémon GO4.0star"
+⏭️ Skipping hidden/disabled element: A - "Royal Match4.7star"
+⏭️ Skipping hidden/disabled element: A - "Mobile Legends: Bang Bang4.2star"
+⏭️ Skipping hidden/disabled element: A - "PUBG MOBILE4.0star"
+⏭️ Skipping hidden/disabled element: A - "DRAGON BALL LEGENDS4.4star"
+⏭️ Skipping hidden/disabled element: A - "Toon Blast4.6star"
+⏭️ Skipping hidden/disabled element: A - "Candy Crush Soda Saga4.5star"
+⏭️ Skipping hidden/disabled element: A - "Mario Kart Tour4.4star"
+⏭️ Skipping hidden/disabled element: A - "Dragon City: Mobile Adventure4.7star"
+⏭️ Skipping hidden/disabled element: BUTTON - "chevron_right"
+⏭️ Skipping hidden/disabled element: DIV - "Top free"
+⏭️ Skipping hidden/disabled element: DIV - "Top grossing"
+⏭️ Skipping hidden/disabled element: DIV - "Top paid"
+⏭️ Skipping hidden/disabled element: BUTTON - "chevron_right"
+⏭️ Skipping hidden/disabled element: A - "1ACECRAFTAction•Bulletstorm•Casual•Intense4.9star"
+⏭️ Skipping hidden/disabled element: A - "2RobloxAdventure•Simulation•Sandbox•Casual4.4star"
+⏭️ Skipping hidden/disabled element: A - "3Clash RoyaleStrategy•Tower defense•Multiplayer•Royalty4.4star"
+⏭️ Skipping hidden/disabled element: A - "4Block Blast!Puzzle•Block•Casual•Offline4.8star"
+⏭️ Skipping hidden/disabled element: A - "5Prison Escape JourneySimulation3.5star"
+⏭️ Skipping hidden/disabled element: A - "6Free Fire x NARUTO SHIPPUDENAction•Tactical shooter•Multiplayer•Gun4.3star"
+⏭️ Skipping hidden/disabled element: A - "7Magic Fashion: Doll DressupSimulation•Dress-up•Casual•Competitive4.3star"
+⏭️ Skipping hidden/disabled element: A - "8Snake Puzzle: Slither to EatPuzzle4.6star"
+⏭️ Skipping hidden/disabled element: A - "9Tile Club - Match Puzzle GamePuzzle•Match 3•Casual•Offline4.9star"
+⏭️ Skipping hidden/disabled element: A - "10Vita MahjongBoard•Puzzle•Mahjong solitaire•Casual4.9star"
+⏭️ Skipping hidden/disabled element: A - "11Steal n Catch the BrainrotArcade4.0star"
+⏭️ Skipping hidden/disabled element: A - "12Subway SurfersAction•Runner•Arcade•Offline4.6star"
+⏭️ Skipping hidden/disabled element: A - "13Music Piano 7: Rush Song GamesMusic•Performance•Arcade•Offline4.5star"
+⏭️ Skipping hidden/disabled element: A - "14Block Crazy Robo World CraftSimulation4.4star"
+⏭️ Skipping hidden/disabled element: A - "15Tile Explorer - Triple MatchPuzzle•Match 3•Casual•Offline4.9star"
+⏭️ Skipping hidden/disabled element: A - "16Kpop Piano Beats - Music GameMusic•Performance•Arcade4.6star"
+⏭️ Skipping hidden/disabled element: A - "17Royal MatchPuzzle•Match 3 adventure•Casual•Offline4.7star"
+⏭️ Skipping hidden/disabled element: A - "18TDS - Tower Destiny SurviveAction•Strategy•Tower defense•Casual4.7star"
+⏭️ Skipping hidden/disabled element: A - "19Blood Strike - FPS for allAction•Tactical shooter•Casual•Multiplayer4.4star"
+⏭️ Skipping hidden/disabled element: A - "208 Ball PoolSports•Billiards•Casual•Offline4.8star"
+⏭️ Skipping hidden/disabled element: BUTTON - "chevron_right"
+⏭️ Skipping hidden/disabled element: A - "Pokémon GOAdventure•Action4.0star"
+⏭️ Skipping hidden/disabled element: BUTTON - ""
+⏭️ Skipping hidden/disabled element: A - "Dragon City: Mobile AdventureSimulation•Breeding4.7star"
+⏭️ Skipping hidden/disabled element: BUTTON - ""
+⏭️ Skipping hidden/disabled element: A - "Last Day on Earth: SurvivalAction•Survival4.5star"
+⏭️ Skipping hidden/disabled element: A - "Plague Inc.Simulation•Casual4.7star"
+⏭️ Skipping hidden/disabled element: BUTTON - ""
+⏭️ Skipping hidden/disabled element: A - "SimCity BuildItSimulation•City-building4.5star"
+⏭️ Skipping hidden/disabled element: BUTTON - ""
+⏭️ Skipping hidden/disabled element: A - "Dead Target: Zombie Games 3DAction•Bulletstorm4.5star"
+⏭️ Skipping hidden/disabled element: BUTTON - ""
+⏭️ Skipping hidden/disabled element: A - "My Singing MonstersMusic•Simulation4.8star"
+⏭️ Skipping hidden/disabled element: BUTTON - ""
+⏭️ Skipping hidden/disabled element: A - "Pepi Hospital: Learn & CareEducational•Simulation4.0star"
+⏭️ Skipping hidden/disabled element: BUTTON - ""
+⏭️ Skipping hidden/disabled element: A - "Episode - Choose Your StorySimulation•Dating4.3star"
+⏭️ Skipping hidden/disabled element: A - "TSMSimulation•Social4.2star"
+⏭️ Skipping hidden/disabled element: BUTTON - ""
+⏭️ Skipping hidden/disabled element: A - "Farming Simulator 14Simulation•Farming4.3star"
+⏭️ Skipping hidden/disabled element: BUTTON - ""
+⏭️ Skipping hidden/disabled element: A - "Castle Crush：Epic BattleStrategy•Card4.4star"
+⏭️ Skipping hidden/disabled element: BUTTON - ""
+⏭️ Skipping hidden/disabled element: A - "Fallout ShelterSimulation•Management4.8star"
+⏭️ Skipping hidden/disabled element: BUTTON - ""
+⏭️ Skipping hidden/disabled element: A - "Spaceflight SimulatorSimulation•Casual4.7star"
+⏭️ Skipping hidden/disabled element: A - "The Battle of PolytopiaStrategy•4X4.4star"
+⏭️ Skipping hidden/disabled element: BUTTON - ""
+⏭️ Skipping hidden/disabled element: A - "Pepi Super Stores: Fun & GamesEducational•Simulation4.1star"
+⏭️ Skipping hidden/disabled element: BUTTON - ""
+⏭️ Skipping hidden/disabled element: A - "Saint Seiya Awakening: KOTZRole Playing•Tactical3.8star"
+⏭️ Skipping hidden/disabled element: BUTTON - ""
+⏭️ Skipping hidden/disabled element: A - "Cafeland - Restaurant CookingSimulation•Restaurant4.6star"
+⏭️ Skipping hidden/disabled element: BUTTON - ""
+
+--- Exploring Page: https://play.google.com/store/games (Page 5/5) ---
+🔍 Found 1500 interactive elements on this page
+🎯 Exploring: A - "Games"
+⚠️ General error interacting with A - "Games": Error: locator.hover: Test timeout of 180000ms exceeded.
+Call log:
+[2m  - waiting for locator('input, button, a, [role="button"]').filter({ hasNotText: 'View on GitHub' }).first()[22m
+[2m    - locator resolved to <a href="/store/games" class="uEz1ib JtbJpb">…</a>[22m
+[2m  - attempting hover action[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div role="combobox" aria-owns="c234" class="hQnXo sMVRZe" aria-expanded="true" aria-controls="c234" jscontroller="q0NEmc" aria-haspopup="listbox" jsaction="click:mLt3mc;rcuQ6b:YOF2ad;qako4e:YOF2ad;kT0ch:s8Aiuc">…</div> from <header role="banner" class="S3WLMd " jscontroller="ArluEf" jsaction="rcuQ6b:npT2md;KwkHzf:IPLOJd;tGMTLb:T1PkR;">…</header> subtree intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div role="combobox" aria-owns="c234" class="hQnXo sMVRZe" aria-expanded="true" aria-controls="c234" jscontroller="q0NEmc" aria-haspopup="listbox" jsaction="click:mLt3mc;rcuQ6b:YOF2ad;qako4e:YOF2ad;kT0ch:s8Aiuc">…</div> from <header role="banner" class="S3WLMd " jscontroller="ArluEf" jsaction="rcuQ6b:npT2md;KwkHzf:IPLOJd;tGMTLb:T1PkR;">…</header> subtree intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m      - waiting 100ms[22m
+[2m    98 × waiting for element to be visible and stable[22m
+[2m       - element is visible and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <div role="combobox" aria-owns="c234" class="hQnXo sMVRZe" aria-expanded="true" aria-controls="c234" jscontroller="q0NEmc" aria-haspopup="listbox" jsaction="click:mLt3mc;rcuQ6b:YOF2ad;qako4e:YOF2ad;kT0ch:s8Aiuc">…</div> from <header role="banner" class="S3WLMd " jscontroller="ArluEf" jsaction="rcuQ6b:npT2md;KwkHzf:IPLOJd;tGMTLb:T1PkR;">…</header> subtree intercepts pointer events[22m
+[2m     - retrying hover action[22m
+[2m       - waiting 500ms[22m
+[2m    - waiting for element to be visible and stable[22m
+
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome-retry2\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome-retry2\video.webm]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-chrome-retry2\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="intelligent\ux-mapping.test.ts" timestamp="2025-09-05T19:18:24.713Z" hostname="mobile-chrome" tests="1" failures="0" skipped="0" time="5.683" errors="0">
+<testcase name="UX Mapping › Should generate UX flow map" classname="intelligent\ux-mapping.test.ts" time="5.683">
+<system-out>
+<![CDATA[📍 Paso 1: Navegar en Página principal
+📍 Paso 2: Click en Input de nueva tarea
+📍 Paso 3: Escribir en Texto en input
+📍 Paso 4: Enviar en Formulario de tarea
+📍 Paso 5: Escribir en Tarea: Segunda tarea
+📍 Paso 6: Enviar en Nueva tarea
+📍 Paso 7: Escribir en Tarea: Tercera tarea importante
+📍 Paso 8: Enviar en Nueva tarea
+📍 Paso 9: Marcar completada en Primera tarea
+📍 Paso 10: Filtrar en Tareas activas
+📍 Paso 11: Filtrar en Tareas completadas
+📍 Paso 12: Eliminar en Tarea completada
+✅ Journey completado: 12 pasos en 4366ms
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="visual\applitools.test.ts" timestamp="2025-09-05T19:18:24.713Z" hostname="mobile-chrome" tests="2" failures="0" skipped="0" time="39.461" errors="0">
+<testcase name="AI Visual Testing con Applitools › Should smartly detect visual changes" classname="visual\applitools.test.ts" time="18.972">
+</testcase>
+<testcase name="AI Visual Testing con Applitools › Should adapt to all resolutions responsively" classname="visual\applitools.test.ts" time="20.489">
+</testcase>
+</testsuite>
+<testsuite name="visual\percy.test.ts" timestamp="2025-09-05T19:18:24.713Z" hostname="mobile-chrome" tests="2" failures="0" skipped="0" time="2.022" errors="0">
+<testcase name="Percy Visual Testing › Landing page responsive visual testing" classname="visual\percy.test.ts" time="0.945">
+<system-out>
+<![CDATA[[[95mpercy[39m] Percy is not running, disabling snapshots
+]]>
+</system-out>
+</testcase>
+<testcase name="Percy Visual Testing › Initial state, added, completed, active, and completed tasks" classname="visual\percy.test.ts" time="1.077">
+</testcase>
+</testsuite>
+<testsuite name="basic-e2e.test.ts" timestamp="2025-09-05T19:18:24.713Z" hostname="mobile-safari" tests="1" failures="0" skipped="0" time="1.725" errors="0">
+<testcase name="Demo E2E - BugMentor › Should navigate and complete the form" classname="basic-e2e.test.ts" time="1.725">
+</testcase>
+</testsuite>
+<testsuite name="intelligent\exploratory.test.ts" timestamp="2025-09-05T19:18:24.713Z" hostname="mobile-safari" tests="1" failures="1" skipped="0" time="541.3" errors="0">
+<testcase name="Automated Exploratory Testing › Should explore the app smartly" classname="intelligent\exploratory.test.ts" time="541.3">
+<failure message="exploratory.test.ts:5:9 Should explore the app smartly" type="FAILURE">
+<![CDATA[  [mobile-safari] › intelligent\exploratory.test.ts:5:9 › Automated Exploratory Testing › Should explore the app smartly 
+
+    Test timeout of 180000ms exceeded.
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari\error-context.md
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Test timeout of 180000ms exceeded.
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari-retry1\trace.zip
+    Usage:
+
+        yarn playwright show-trace ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Test timeout of 180000ms exceeded.
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari-retry2\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---
+🔍 Found 4 interactive elements on this page
+🎯 Exploring: A - "real TodoMVC app."
+➡️ Navigated to new page: https://todomvc.com/
+
+--- Exploring Page: https://todomvc.com/ (Page 2/5) ---
+🔍 Found 82 interactive elements on this page
+🎯 Exploring: A - "Download"
+🎯 Exploring: A - "Blog"
+➡️ Navigated to new page: https://medium.com/@tastejs
+
+--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---
+🔍 Found 33 interactive elements on this page
+⏭️ Skipping hidden/disabled element: A - "Sitemap"
+🎯 Exploring: BUTTON - "Sign up"
+🎯 Exploring: A - "Sign in"
+⚠️ General error interacting with A - "Sign in": Error: locator.hover: Test timeout of 180000ms exceeded.
+Call log:
+[2m  - waiting for locator('input, button, a, [role="button"]').filter({ hasNotText: 'View on GitHub' }).nth(2)[22m
+[2m    - locator resolved to <a data-discover="true" rel="noopener follow" data-testid="headerSignInButton" class="ah ai aj ff al am an ao ap aq ar as at au av" href="/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F%40tastejs&source=user_profile_page---two_column_layout_nav-----------------------global_nav------------------">Sign in</a>[22m
+[2m  - attempting hover action[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div class="rh ri rj rk rl rm rn ro rp rq bq ci bi rr ac r fw cr rs rt fd">…</div> from <div>…</div> subtree intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div class="rh ri rj rk rl rm rn ro rp rq bq ci bi rr ac r fw cr rs rt fd">…</div> from <div>…</div> subtree intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m      - waiting 100ms[22m
+[2m    202 × waiting for element to be visible and stable[22m
+[2m        - element is visible and stable[22m
+[2m        - scrolling into view if needed[22m
+[2m        - done scrolling[22m
+[2m        - <div class="rh ri rj rk rl rm rn ro rp rq bq ci bi rr ac r fw cr rs rt fd">…</div> from <div>…</div> subtree intercepts pointer events[22m
+[2m      - retrying hover action[22m
+[2m        - waiting 500ms[22m
+
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari\video.webm]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari\error-context.md]]
+
+--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---
+🔍 Found 4 interactive elements on this page
+🎯 Exploring: A - "real TodoMVC app."
+➡️ Navigated to new page: https://todomvc.com/
+
+--- Exploring Page: https://todomvc.com/ (Page 2/5) ---
+🔍 Found 82 interactive elements on this page
+🎯 Exploring: A - "Download"
+🎯 Exploring: A - "Blog"
+➡️ Navigated to new page: https://medium.com/@tastejs
+
+--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---
+🔍 Found 33 interactive elements on this page
+⏭️ Skipping hidden/disabled element: A - "Sitemap"
+🎯 Exploring: BUTTON - "Sign up"
+🎯 Exploring: A - "Sign in"
+⚠️ General error interacting with A - "Sign in": Error: locator.hover: Test timeout of 180000ms exceeded.
+Call log:
+[2m  - waiting for locator('input, button, a, [role="button"]').filter({ hasNotText: 'View on GitHub' }).nth(2)[22m
+[2m    - locator resolved to <a data-discover="true" rel="noopener follow" data-testid="headerSignInButton" class="ah ai aj ff al am an ao ap aq ar as at au av" href="/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F%40tastejs&source=user_profile_page---two_column_layout_nav-----------------------global_nav------------------">Sign in</a>[22m
+[2m  - attempting hover action[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div class="rh ri rj rk rl rm rn ro rp rq bq ci bi rr ac r fw cr rs rt fd">…</div> from <div>…</div> subtree intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div class="rh ri rj rk rl rm rn ro rp rq bq ci bi rr ac r fw cr rs rt fd">…</div> from <div>…</div> subtree intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m      - waiting 100ms[22m
+[2m    185 × waiting for element to be visible and stable[22m
+[2m        - element is visible and stable[22m
+[2m        - scrolling into view if needed[22m
+[2m        - done scrolling[22m
+[2m        - <div class="rh ri rj rk rl rm rn ro rp rq bq ci bi rr ac r fw cr rs rt fd">…</div> from <div>…</div> subtree intercepts pointer events[22m
+[2m      - retrying hover action[22m
+[2m        - waiting 500ms[22m
+
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari-retry1\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari-retry1\video.webm]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari-retry1\error-context.md]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari-retry1\trace.zip]]
+
+--- Exploring Page: https://demo.playwright.dev/todomvc/#/ (Page 1/5) ---
+🔍 Found 4 interactive elements on this page
+🎯 Exploring: A - "real TodoMVC app."
+➡️ Navigated to new page: https://todomvc.com/
+
+--- Exploring Page: https://todomvc.com/ (Page 2/5) ---
+🔍 Found 82 interactive elements on this page
+🎯 Exploring: A - "Download"
+🎯 Exploring: A - "Blog"
+➡️ Navigated to new page: https://medium.com/@tastejs
+
+--- Exploring Page: https://medium.com/@tastejs (Page 3/5) ---
+🔍 Found 33 interactive elements on this page
+⏭️ Skipping hidden/disabled element: A - "Sitemap"
+🎯 Exploring: BUTTON - "Sign up"
+🎯 Exploring: A - "Sign in"
+⚠️ General error interacting with A - "Sign in": Error: locator.hover: Test timeout of 180000ms exceeded.
+Call log:
+[2m  - waiting for locator('input, button, a, [role="button"]').filter({ hasNotText: 'View on GitHub' }).nth(2)[22m
+[2m    - locator resolved to <a data-discover="true" rel="noopener follow" data-testid="headerSignInButton" class="ah ai aj ff al am an ao ap aq ar as at au av" href="/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F%40tastejs&source=user_profile_page---two_column_layout_nav-----------------------global_nav------------------">Sign in</a>[22m
+[2m  - attempting hover action[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div class="rh ri rj rk rl rm rn ro rp rq bq ci bi rr ac r fw cr rs rt fd">…</div> from <div>…</div> subtree intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible and stable[22m
+[2m      - element is visible and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div class="rh ri rj rk rl rm rn ro rp rq bq ci bi rr ac r fw cr rs rt fd">…</div> from <div>…</div> subtree intercepts pointer events[22m
+[2m    - retrying hover action[22m
+[2m      - waiting 100ms[22m
+[2m    203 × waiting for element to be visible and stable[22m
+[2m        - element is visible and stable[22m
+[2m        - scrolling into view if needed[22m
+[2m        - done scrolling[22m
+[2m        - <div class="rh ri rj rk rl rm rn ro rp rq bq ci bi rr ac r fw cr rs rt fd">…</div> from <div>…</div> subtree intercepts pointer events[22m
+[2m      - retrying hover action[22m
+[2m        - waiting 500ms[22m
+[2m    - waiting for element to be visible and stable[22m
+
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari-retry2\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari-retry2\video.webm]]
+
+[[ATTACHMENT|test-results\intelligent-exploratory-Au-cc838-uld-explore-the-app-smartly-mobile-safari-retry2\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="intelligent\ux-mapping.test.ts" timestamp="2025-09-05T19:18:24.713Z" hostname="mobile-safari" tests="1" failures="0" skipped="0" time="10.042" errors="0">
+<testcase name="UX Mapping › Should generate UX flow map" classname="intelligent\ux-mapping.test.ts" time="10.042">
+<system-out>
+<![CDATA[📍 Paso 1: Navegar en Página principal
+📍 Paso 2: Click en Input de nueva tarea
+📍 Paso 3: Escribir en Texto en input
+📍 Paso 4: Enviar en Formulario de tarea
+📍 Paso 5: Escribir en Tarea: Segunda tarea
+📍 Paso 6: Enviar en Nueva tarea
+📍 Paso 7: Escribir en Tarea: Tercera tarea importante
+📍 Paso 8: Enviar en Nueva tarea
+📍 Paso 9: Marcar completada en Primera tarea
+📍 Paso 10: Filtrar en Tareas activas
+📍 Paso 11: Filtrar en Tareas completadas
+📍 Paso 12: Eliminar en Tarea completada
+✅ Journey completado: 12 pasos en 6361ms
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="visual\applitools.test.ts" timestamp="2025-09-05T19:18:24.713Z" hostname="mobile-safari" tests="2" failures="0" skipped="0" time="35.845" errors="0">
+<testcase name="AI Visual Testing con Applitools › Should smartly detect visual changes" classname="visual\applitools.test.ts" time="16.107">
+</testcase>
+<testcase name="AI Visual Testing con Applitools › Should adapt to all resolutions responsively" classname="visual\applitools.test.ts" time="19.738">
+</testcase>
+</testsuite>
+<testsuite name="visual\percy.test.ts" timestamp="2025-09-05T19:18:24.713Z" hostname="mobile-safari" tests="2" failures="0" skipped="0" time="4.882" errors="0">
+<testcase name="Percy Visual Testing › Landing page responsive visual testing" classname="visual\percy.test.ts" time="3.087">
+<system-out>
+<![CDATA[[[95mpercy[39m] Percy is not running, disabling snapshots
+]]>
+</system-out>
+</testcase>
+<testcase name="Percy Visual Testing › Initial state, added, completed, active, and completed tasks" classname="visual\percy.test.ts" time="1.795">
+</testcase>
+</testsuite>
+</testsuites>
