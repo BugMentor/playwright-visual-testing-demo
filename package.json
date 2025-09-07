@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test",
+    "test": "npm run test:all",
     "test:headed": "playwright test --headed",
     "test:debug": "playwright test --debug",
     "test:ui": "playwright test --ui",
@@ -12,6 +12,7 @@
     "test:exploratory": "playwright test tests/intelligent/exploratory.test.ts",
     "test:ux": "playwright test tests/intelligent/ux-mapping.test.ts",
     "test:all-visual": "npm run test:percy && npm run test:applitools",
+    "test:all": "playwright test && npm run test:all-visual",
     "report": "playwright show-report",
     "install-browsers": "playwright install"
   },
