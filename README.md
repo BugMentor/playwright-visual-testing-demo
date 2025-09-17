@@ -6,18 +6,16 @@ This project demonstrates visual regression testing using **Playwright** and **P
 
 ## 📑 Table of Contents
 
-- [Playwright Visual Testing Demo](#playwright-visual-testing-demo)
-  - [📑 Table of Contents](#-table-of-contents)
-  - [Project Structure](#project-structure)
-  - [Technologies Used](#technologies-used)
-  - [Setup and Installation](#setup-and-installation)
-  - [Running Tests](#running-tests)
-  - [Understanding the Visual Tests](#understanding-the-visual-tests)
-    - [`tests/visual/percy.test.ts`](#testsvisualpercytestts)
-    - [`utils/percy.ts`](#utilspercyts)
-  - [Common Issues and Troubleshooting](#common-issues-and-troubleshooting)
-  - [Contributing](#contributing)
-  - [License](#license)
+- [Project Structure](#project-structure)
+- [Technologies Used](#technologies-used)
+- [Setup and Installation](#setup-and-installation)
+- [Running Tests](#running-tests)
+- [Understanding the Visual Tests](#understanding-the-visual-tests)
+  - [`tests/visual/percy.test.ts`](#testsvisualpercytestts)
+  - [`utils/percy.ts`](#utilspercyts)
+- [Common Issues and Troubleshooting](#common-issues-and-troubleshooting)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
