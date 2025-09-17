@@ -4,6 +4,23 @@ This project demonstrates visual regression testing using **Playwright** and **P
 
 ---
 
+## 📑 Table of Contents
+
+- [Playwright Visual Testing Demo](#playwright-visual-testing-demo)
+  - [📑 Table of Contents](#-table-of-contents)
+  - [Project Structure](#project-structure)
+  - [Technologies Used](#technologies-used)
+  - [Setup and Installation](#setup-and-installation)
+  - [Running Tests](#running-tests)
+  - [Understanding the Visual Tests](#understanding-the-visual-tests)
+    - [`tests/visual/percy.test.ts`](#testsvisualpercytestts)
+    - [`utils/percy.ts`](#utilspercyts)
+  - [Common Issues and Troubleshooting](#common-issues-and-troubleshooting)
+  - [Contributing](#contributing)
+  - [License](#license)
+
+---
+
 ## Project Structure
 
 ```
@@ -33,15 +50,6 @@ Project Structure
 ├── tsconfig.json                     # TypeScript configuration
 └── yarn.lock                         # Yarn dependency lock file
 ```
-
----
-
-## Technologies Used
-
-- **Playwright:** Automate Chromium, Firefox, and WebKit with a single API. Used for browser automation and test execution.  
-- **Percy:** Visual testing platform that integrates with CI/CD pipelines to detect UI changes.  
-- **TypeScript:** Type-safe and maintainable code.  
-- **Yarn:** Package manager.
 
 ---
 
